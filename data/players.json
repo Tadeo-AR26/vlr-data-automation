@@ -1,0 +1,58 @@
+{
+    "3017": {
+        "id": "3017",
+        "ign": "nobody",
+        "real_name": "Wang Senxu (王森旭)",
+        "country": "CHINA",
+        "current_team": {
+            "name": "EDward Gaming",
+            "id": "1120",
+            "joined": "September 2021"
+        },
+        "past_teams": [
+            {
+                "name": "Qing Jiu Club",
+                "id": "6093",
+                "date": null
+            },
+            {
+                "name": "LIZHI",
+                "id": "4463",
+                "date": "September 2021"
+            },
+            {
+                "name": "Royal Never Give Up",
+                "id": "804",
+                "date": null
+            }
+        ]
+    },
+    "11624": {
+        "id": "11624",
+        "ign": "Shiroe",
+        "real_name": "",
+        "country": "JAPAN",
+        "current_team": {
+            "name": "Free Agent",
+            "id": null,
+            "joined": null
+        },
+        "past_teams": [
+            {
+                "name": "Mariner",
+                "id": "8154",
+                "date": null
+            },
+            {
+                "name": "Rebellion Arts",
+                "id": "5503",
+                "date": null
+            },
+            {
+                "name": "ORB GARDEN GAMING-MUT",
+                "id": "3430",
+                "date": null
+            }
+        ]
+    }
+}
