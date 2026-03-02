@@ -1,0 +1,27 @@
+# --- Entorno Virtual ---
+.venv/
+venv/
+env/
+
+# --- Python (Archivos compilados y temporales) ---
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+# --- Datos Locales ---
+# Ignoramos los JSON locales para que no haya conflictos con los que genere el bot
+# data/*.json
+
+# --- Variables de Entorno ---
+.env
+.env.local
+
+# --- Windows ---
+Thumbs.db
+desktop.ini
+
+# --- vs ---
+.vscode/
+.idea/
+*.swp
