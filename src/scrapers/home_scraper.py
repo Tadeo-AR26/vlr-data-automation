@@ -23,12 +23,14 @@ class HomeScraper:
                 if match_id.isdigit() and match_id not in activity["upcoming_matches"]:
                     activity["upcoming_matches"].append(match_id)
 
-        recent_label = soup.find('a', string=lambda s: s and "Recent Results" in s)
+        recent_label = soup.select_one('a.wf-label.mod-sidebar[href="/matches/results"]')
         if recent_label:
-            recent_container = recent_label.find_next('div', class_='wf-card')
+            recent_container = recent_label.find_next('div', class_='wf-module')
             if recent_container:
                 for match_link in recent_container.select('a.wf-module-item'):
-                    match_id = match_link['href'].split('/')[1]
+                    # Limpiamos barras para que el split siempre funcione
+                    href = match_link['href'].lstrip('/')
+                    match_id = href.split('/')[0]
                     if match_id.isdigit() and match_id not in activity["recent_matches"]:
                         activity["recent_matches"].append(match_id)
         

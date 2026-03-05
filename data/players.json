@@ -54,5 +54,6889 @@
                 "date": null
             }
         ]
+    },
+    "3993": {
+        "id": "3993",
+        "ign": "jawgemo",
+        "real_name": "Alexander Mor",
+        "country": "CAMBODIA",
+        "current_team": {
+            "name": "G2 Esports",
+            "id": "11058",
+            "joined": "October 2024"
+        },
+        "past_teams": [
+            {
+                "name": "Team BcJ",
+                "id": "10964",
+                "date": null
+            },
+            {
+                "name": "Team tarik",
+                "id": "10346",
+                "date": null
+            },
+            {
+                "name": "Team iiTzTimmy",
+                "id": "10030",
+                "date": null
+            },
+            {
+                "name": "Evil Geniuses",
+                "id": "5248",
+                "date": "January 2022 – October 2024"
+            },
+            {
+                "name": "T1 Academy",
+                "id": "4075",
+                "date": "November 2021 – January 2022"
+            },
+            {
+                "name": "T1 Academy",
+                "id": "4075",
+                "date": "trial"
+            },
+            {
+                "name": "Time Out",
+                "id": "5839",
+                "date": "July 2021 – September 2021"
+            },
+            {
+                "name": "Fortnite Fraggers",
+                "id": "4827",
+                "date": "June 2021 – July 2021"
+            },
+            {
+                "name": "Decisive",
+                "id": "3407",
+                "date": "March 2021 – May 2021"
+            },
+            {
+                "name": "Sedated",
+                "id": "1305",
+                "date": "January 2021 – March 2021"
+            },
+            {
+                "name": "DREAMLAND",
+                "id": "1246",
+                "date": "January 2021"
+            },
+            {
+                "name": "Neutralize",
+                "id": "1031",
+                "date": "October 2020"
+            }
+        ]
+    },
+    "29833": {
+        "id": "29833",
+        "ign": "iZu",
+        "real_name": "Ham Woo-ju (함우주)",
+        "country": "SOUTH KOREA",
+        "current_team": {
+            "name": "T1",
+            "id": "14",
+            "joined": "September 2023"
+        },
+        "past_teams": [
+            {
+                "name": "T1 Spotlight",
+                "id": "20187",
+                "date": "October 2025"
+            },
+            {
+                "name": "Jadeite",
+                "id": "6793",
+                "date": "September 2022 – June 2023"
+            }
+        ]
+    },
+    "7873": {
+        "id": "7873",
+        "ign": "leaf",
+        "real_name": "Nathan Orf",
+        "country": "UNITED STATES",
+        "current_team": {
+            "name": "G2 Esports",
+            "id": "11058",
+            "joined": "October 2023"
+        },
+        "past_teams": [
+            {
+                "name": "Cloud9",
+                "id": "188",
+                "date": "January 2021 – September 2023"
+            }
+        ]
+    },
+    "3885": {
+        "id": "3885",
+        "ign": "valyn",
+        "real_name": "Jacob Batio",
+        "country": "UNITED STATES",
+        "current_team": {
+            "name": "G2 Esports",
+            "id": "11058",
+            "joined": "September 2023"
+        },
+        "past_teams": [
+            {
+                "name": "Team Stewie2k",
+                "id": "10345",
+                "date": null
+            },
+            {
+                "name": "The Guard",
+                "id": "6675",
+                "date": "November 2021 – August 2023"
+            },
+            {
+                "name": "Complexity",
+                "id": "470",
+                "date": "April 2021 – November 2021"
+            },
+            {
+                "name": "Pug Gods",
+                "id": "2586",
+                "date": null
+            },
+            {
+                "name": "Balanced Esports",
+                "id": "2382",
+                "date": null
+            },
+            {
+                "name": "Flow State",
+                "id": "994",
+                "date": "July 2020 – February 2021"
+            }
+        ]
+    },
+    "2489": {
+        "id": "2489",
+        "ign": "Munchkin",
+        "real_name": "Byeon Sang-beom (변상범)",
+        "country": "SOUTH KOREA",
+        "current_team": {
+            "name": "T1",
+            "id": "14",
+            "joined": "November 2025"
+        },
+        "past_teams": [
+            {
+                "name": "Gen.G",
+                "id": "17",
+                "date": "October 2024 – October 2025"
+            },
+            {
+                "name": "Gen.G",
+                "id": "17",
+                "date": "November 2023 – October 2024"
+            },
+            {
+                "name": "T1",
+                "id": "14",
+                "date": "May 2022 – September 2023"
+            },
+            {
+                "name": "Crazy Raccoon",
+                "id": "277",
+                "date": "January 2022 – April 2022"
+            },
+            {
+                "name": "Crazy Raccoon",
+                "id": "277",
+                "date": "January 2021 – December 2021"
+            },
+            {
+                "name": "Cloud9 Korea",
+                "id": "651",
+                "date": "August 2020 – December 2020"
+            }
+        ]
+    },
+    "13039": {
+        "id": "13039",
+        "ign": "Meteor",
+        "real_name": "Kim Tae-oh (김태오)",
+        "country": "SOUTH KOREA",
+        "current_team": {
+            "name": "T1",
+            "id": "14",
+            "joined": "October 2024"
+        },
+        "past_teams": [
+            {
+                "name": "T1 Spotlight",
+                "id": "20187",
+                "date": "October 2025"
+            },
+            {
+                "name": "Gen.G",
+                "id": "17",
+                "date": "October 2022 – October 2024"
+            },
+            {
+                "name": "NORTHEPTION",
+                "id": "2988",
+                "date": "February 2022 – October 2022"
+            },
+            {
+                "name": "TNL Esports",
+                "id": "1970",
+                "date": "May 2021 – January 2022"
+            },
+            {
+                "name": "I need Girlfriend",
+                "id": "3311",
+                "date": "May 2021"
+            }
+        ]
+    },
+    "485": {
+        "id": "485",
+        "ign": "stax",
+        "real_name": "Kim Gu-taek (김구택)",
+        "country": "SOUTH KOREA",
+        "current_team": {
+            "name": "T1",
+            "id": "14",
+            "joined": "June 2024"
+        },
+        "past_teams": [
+            {
+                "name": "T1 Spotlight",
+                "id": "20187",
+                "date": "October 2025"
+            },
+            {
+                "name": "DRX",
+                "id": "8185",
+                "date": "January 2022 – June 2024"
+            },
+            {
+                "name": "Vision Strikers",
+                "id": "198",
+                "date": "June 2020 – January 2022"
+            }
+        ]
+    },
+    "2170": {
+        "id": "2170",
+        "ign": "BABYBAY",
+        "real_name": "Andrej Francisty",
+        "country": "UNITED STATES",
+        "current_team": {
+            "name": "G2 Esports",
+            "id": "11058",
+            "joined": "August 2025"
+        },
+        "past_teams": [
+            {
+                "name": "Team BABYBAY",
+                "id": "10025",
+                "date": null
+            },
+            {
+                "name": "FaZe Clan",
+                "id": "337",
+                "date": "August 2020 – July 2023"
+            }
+        ]
+    },
+    "15500": {
+        "id": "15500",
+        "ign": "trent",
+        "real_name": "Trent Cairns",
+        "country": "UNITED STATES",
+        "current_team": {
+            "name": "G2 Esports",
+            "id": "11058",
+            "joined": "September 2023"
+        },
+        "past_teams": [
+            {
+                "name": "The Guard",
+                "id": "6675",
+                "date": "January 2022 – August 2023"
+            },
+            {
+                "name": "Most Prolific",
+                "id": "6375",
+                "date": null
+            },
+            {
+                "name": "Fenrir",
+                "id": "4688",
+                "date": "August 2021"
+            },
+            {
+                "name": "Team Reckaroo",
+                "id": "3748",
+                "date": "August 2021"
+            }
+        ]
+    },
+    "804": {
+        "id": "804",
+        "ign": "BuZz",
+        "real_name": "Yu Byeong-cheol (유병철)",
+        "country": "SOUTH KOREA",
+        "current_team": {
+            "name": "T1",
+            "id": "14",
+            "joined": "October 2024"
+        },
+        "past_teams": [
+            {
+                "name": "T1 Spotlight",
+                "id": "20187",
+                "date": "October 2025"
+            },
+            {
+                "name": "DRX",
+                "id": "8185",
+                "date": "January 2022 – October 2024"
+            },
+            {
+                "name": "Vision Strikers",
+                "id": "198",
+                "date": "May 2021 – January 2022"
+            },
+            {
+                "name": "Rio Company",
+                "id": "3945",
+                "date": "March 2021 – May 2021"
+            },
+            {
+                "name": "MUYAHO",
+                "id": "2933",
+                "date": "February 2021 – March 2021"
+            },
+            {
+                "name": "BearClaw Gaming",
+                "id": "1331",
+                "date": "January 2021 – February 2021"
+            },
+            {
+                "name": "Cloud9 Korea",
+                "id": "651",
+                "date": "October 2020 – December 2020"
+            },
+            {
+                "name": "MaD",
+                "id": "210",
+                "date": "August 2020"
+            }
+        ]
+    },
+    "14681": {
+        "id": "14681",
+        "ign": "kamo",
+        "real_name": "Kamil Frąckowiak",
+        "country": "POLAND",
+        "current_team": {
+            "name": "Team Liquid",
+            "id": "474",
+            "joined": "October 2024"
+        },
+        "past_teams": [
+            {
+                "name": "KOI",
+                "id": "7035",
+                "date": "February 2024 – October 2024"
+            },
+            {
+                "name": "KOI",
+                "id": "7035",
+                "date": "October 2023 – November 2023"
+            },
+            {
+                "name": "GTZ Esports",
+                "id": "9762",
+                "date": "January 2023 – June 2023"
+            },
+            {
+                "name": "DSYRE",
+                "id": "6538",
+                "date": "October 2022 – December 2022"
+            },
+            {
+                "name": "NOM Esports",
+                "id": "6191",
+                "date": "March 2022 – August 2022"
+            },
+            {
+                "name": "l3wandowski",
+                "id": "7881",
+                "date": "January 2023"
+            },
+            {
+                "name": "Pizza Boosters",
+                "id": "4145",
+                "date": null
+            }
+        ]
+    },
+    "457": {
+        "id": "457",
+        "ign": "nAts",
+        "real_name": "Ayaz Akhmetshin",
+        "country": "RUSSIA",
+        "current_team": {
+            "name": "Team Liquid",
+            "id": "474",
+            "joined": "November 2022"
+        },
+        "past_teams": [
+            {
+                "name": "M3 Champions",
+                "id": "8326",
+                "date": "March 2022 – August 2022"
+            },
+            {
+                "name": "Gambit Esports",
+                "id": "682",
+                "date": "September 2020 – March 2022"
+            },
+            {
+                "name": "FishkaVTom",
+                "id": "110",
+                "date": "May 2020 – September 2020"
+            }
+        ]
+    },
+    "11225": {
+        "id": "11225",
+        "ign": "Ethan",
+        "real_name": "Ethan Arnold",
+        "country": "UNITED STATES",
+        "current_team": {
+            "name": "NRG",
+            "id": "1034",
+            "joined": "December 2023"
+        },
+        "past_teams": [
+            {
+                "name": "Evil Geniuses",
+                "id": "5248",
+                "date": "November 2022 – December 2023"
+            },
+            {
+                "name": "NRG",
+                "id": "1034",
+                "date": "April 2022 – November 2022"
+            },
+            {
+                "name": "100 Thieves",
+                "id": "120",
+                "date": "February 2021 – April 2022"
+            }
+        ]
+    },
+    "5132": {
+        "id": "5132",
+        "ign": "mada",
+        "real_name": "Adam Pampuch",
+        "country": "CANADA",
+        "current_team": {
+            "name": "NRG",
+            "id": "1034",
+            "joined": "October 2024"
+        },
+        "past_teams": [
+            {
+                "name": "Moist x Shopify",
+                "id": "13188",
+                "date": "September 2023 – September 2024"
+            },
+            {
+                "name": "Shopify Rebellion Black",
+                "id": "9353",
+                "date": "June 2022 – September 2023"
+            },
+            {
+                "name": "Luminosity",
+                "id": "642",
+                "date": "January 2022 – June 2022"
+            },
+            {
+                "name": "Andbox",
+                "id": "856",
+                "date": "April 2021 – January 2022"
+            },
+            {
+                "name": "Andbox",
+                "id": "856",
+                "date": "trial"
+            }
+        ]
+    },
+    "11494": {
+        "id": "11494",
+        "ign": "keiko",
+        "real_name": "Georgio Sanassy",
+        "country": "UNITED KINGDOM",
+        "current_team": {
+            "name": "NRG",
+            "id": "1034",
+            "joined": "November 2025"
+        },
+        "past_teams": [
+            {
+                "name": "Team Liquid",
+                "id": "474",
+                "date": "November 2023 – November 2025"
+            },
+            {
+                "name": "Apeks",
+                "id": "11479",
+                "date": "January 2023 – November 2023"
+            },
+            {
+                "name": "bonk",
+                "id": "377",
+                "date": "October 2022 – December 2022"
+            },
+            {
+                "name": "WYLDE",
+                "id": "8128",
+                "date": "May 2022 – August 2022"
+            }
+        ]
+    },
+    "1885": {
+        "id": "1885",
+        "ign": "purp0",
+        "real_name": "Semyon Borchev",
+        "country": "RUSSIA",
+        "current_team": {
+            "name": "Team Liquid",
+            "id": "474",
+            "joined": "December 2025"
+        },
+        "past_teams": [
+            {
+                "name": "Joblife",
+                "id": "11232",
+                "date": "June 2025 – December 2025"
+            },
+            {
+                "name": "GIANTX",
+                "id": "14419",
+                "date": "April 2024 – June 2025"
+            },
+            {
+                "name": "KPI Gaming",
+                "id": "6313",
+                "date": "September 2023 – March 2024"
+            },
+            {
+                "name": "FOKUS",
+                "id": "6882",
+                "date": "November 2022 – April 2023"
+            },
+            {
+                "name": "M3 Champions",
+                "id": "8326",
+                "date": "August 2022 – September 2022"
+            },
+            {
+                "name": "XPLDZ",
+                "id": "8130",
+                "date": "March 2022 – July 2022"
+            },
+            {
+                "name": "B8 Esports",
+                "id": "7243",
+                "date": null
+            },
+            {
+                "name": "FishkaVTom",
+                "id": "110",
+                "date": "October 2021"
+            },
+            {
+                "name": "Moscow Five jr",
+                "id": "3799",
+                "date": null
+            },
+            {
+                "name": "HESOYAM",
+                "id": "2239",
+                "date": "January 2021"
+            },
+            {
+                "name": "Team Empire",
+                "id": "1151",
+                "date": "October 2020 – January 2021"
+            },
+            {
+                "name": "Rebels",
+                "id": "1018",
+                "date": "October 2020"
+            },
+            {
+                "name": "mercenaries",
+                "id": "491",
+                "date": "July 2020"
+            }
+        ]
+    },
+    "24628": {
+        "id": "24628",
+        "ign": "wayne",
+        "real_name": "Wayne Chang",
+        "country": "SINGAPORE",
+        "current_team": {
+            "name": "Team Liquid",
+            "id": "474",
+            "joined": "December 2025"
+        },
+        "past_teams": [
+            {
+                "name": "Motiv Esports",
+                "id": "18117",
+                "date": "April 2025 – November 2025"
+            },
+            {
+                "name": "KIMMY KITTENS",
+                "id": "17353",
+                "date": null
+            },
+            {
+                "name": "Disguised",
+                "id": "14773",
+                "date": "January 2024 – January 2025"
+            },
+            {
+                "name": "Kizuna Esports",
+                "id": "10979",
+                "date": "August 2023 – October 2023"
+            },
+            {
+                "name": "X10 Esports",
+                "id": "2112",
+                "date": "March 2023 – June 2023"
+            },
+            {
+                "name": "The Mongs",
+                "id": "8779",
+                "date": null
+            },
+            {
+                "name": "Kathix Dash Esports",
+                "id": "7988",
+                "date": null
+            }
+        ]
+    },
+    "18350": {
+        "id": "18350",
+        "ign": "MiniBoo",
+        "real_name": "Dominykas Lukaševičius",
+        "country": "LITHUANIA",
+        "current_team": {
+            "name": "Team Liquid",
+            "id": "474",
+            "joined": "December 2025"
+        },
+        "past_teams": [
+            {
+                "name": "Team Heretics",
+                "id": "1001",
+                "date": "October 2023 – October 2025"
+            },
+            {
+                "name": "Case Esports",
+                "id": "6149",
+                "date": "September 2022 – September 2023"
+            },
+            {
+                "name": "Arctic",
+                "id": "1163",
+                "date": "February 2022 – August 2022"
+            },
+            {
+                "name": "Soldados de Lembo",
+                "id": "7156",
+                "date": "February 2022"
+            },
+            {
+                "name": "GMT Esports",
+                "id": "10094",
+                "date": "August 2021 – December 2021"
+            },
+            {
+                "name": "Gydom Galva",
+                "id": "5679",
+                "date": "August 2021"
+            }
+        ]
+    },
+    "11118": {
+        "id": "11118",
+        "ign": "skuba",
+        "real_name": "Logan Jenkins",
+        "country": "UNITED STATES",
+        "current_team": {
+            "name": "NRG",
+            "id": "1034",
+            "joined": "May 2025"
+        },
+        "past_teams": [
+            {
+                "name": "Cubert Academy",
+                "id": "16899",
+                "date": "January 2025 – May 2025"
+            },
+            {
+                "name": "Oxygen Esports",
+                "id": "10725",
+                "date": "December 2022 – August 2024"
+            },
+            {
+                "name": "NSIC",
+                "id": "9658",
+                "date": "August 2022 – October 2022"
+            },
+            {
+                "name": "Knights",
+                "id": "1615",
+                "date": "November 2021 – November 2022"
+            },
+            {
+                "name": "Knights",
+                "id": "1615",
+                "date": "trial"
+            },
+            {
+                "name": "Knights Academy",
+                "id": "6198",
+                "date": "November 2021"
+            },
+            {
+                "name": "Pioneers",
+                "id": "4940",
+                "date": "June 2021 – November 2021"
+            },
+            {
+                "name": "FPL-C",
+                "id": "4672",
+                "date": "June 2021"
+            },
+            {
+                "name": "NSIC",
+                "id": "2403",
+                "date": "February 2021"
+            }
+        ]
+    },
+    "2172": {
+        "id": "2172",
+        "ign": "brawk",
+        "real_name": "Brock Somerhalder",
+        "country": "UNITED STATES",
+        "current_team": {
+            "name": "NRG",
+            "id": "1034",
+            "joined": "February 2025"
+        },
+        "past_teams": [
+            {
+                "name": "Shopify Rebellion Black",
+                "id": "9353",
+                "date": "January 2025 – February 2025"
+            },
+            {
+                "name": "Moist x Shopify",
+                "id": "13188",
+                "date": "November 2024 – January 2025"
+            },
+            {
+                "name": "Moist x Shopify",
+                "id": "13188",
+                "date": "September 2023 – November 2024"
+            },
+            {
+                "name": "Moist Moguls",
+                "id": "12041",
+                "date": "February 2023 – September 2023"
+            },
+            {
+                "name": "BreakThru",
+                "id": "10713",
+                "date": "January 2023 – February 2023"
+            },
+            {
+                "name": "Ghostbusters",
+                "id": "9758",
+                "date": "September 2022 – December 2022"
+            },
+            {
+                "name": "Ghost Gaming",
+                "id": "2291",
+                "date": "January 2022 – August 2022"
+            },
+            {
+                "name": "Complexity",
+                "id": "470",
+                "date": "October 2021 – January 2022"
+            },
+            {
+                "name": "Complexity",
+                "id": "470",
+                "date": "trial"
+            },
+            {
+                "name": "Frail Males",
+                "id": "4965",
+                "date": "June 2021"
+            },
+            {
+                "name": "On The Way",
+                "id": "3778",
+                "date": "April 2021"
+            },
+            {
+                "name": "PUGSTARS",
+                "id": "2938",
+                "date": "March 2021 – March 2021"
+            },
+            {
+                "name": "Complexity",
+                "id": "470",
+                "date": "February 2021 – March 2021"
+            },
+            {
+                "name": "Serenity",
+                "id": "837",
+                "date": "December 2020 – March 2021"
+            },
+            {
+                "name": "Lemonade Stand",
+                "id": "315",
+                "date": "August 2020"
+            }
+        ]
+    },
+    "22047": {
+        "id": "22047",
+        "ign": "Rarga",
+        "real_name": "Arthur Churyumov",
+        "country": "RUSSIA",
+        "current_team": {
+            "name": "Xi Lai Gaming",
+            "id": "13581",
+            "joined": "December 2023"
+        },
+        "past_teams": [
+            {
+                "name": "Dragon Ranger Gaming",
+                "id": "11981",
+                "date": "September 2023"
+            },
+            {
+                "name": "NASR Esports",
+                "id": "1470",
+                "date": "August 2022 – January 2023"
+            },
+            {
+                "name": "next_viigraem",
+                "id": "7244",
+                "date": null
+            }
+        ]
+    },
+    "37927": {
+        "id": "37927",
+        "ign": "happywei",
+        "real_name": "Deng Minwei (邓闵维)",
+        "country": "TAIWAN",
+        "current_team": {
+            "name": "Xi Lai Gaming",
+            "id": "13581",
+            "joined": "March 2024"
+        },
+        "past_teams": [
+            {
+                "name": "Night Wings Gaming",
+                "id": "5944",
+                "date": null
+            }
+        ]
+    },
+    "24308": {
+        "id": "24308",
+        "ign": "WsLeo",
+        "real_name": "Huang Pinwei (黄品维)",
+        "country": "TAIWAN",
+        "current_team": {
+            "name": "Xi Lai Gaming",
+            "id": "13581",
+            "joined": "December 2025"
+        },
+        "past_teams": [
+            {
+                "name": "Thunder Gaming",
+                "id": "19895",
+                "date": "October 2025"
+            },
+            {
+                "name": "Four Angry Men",
+                "id": "11980",
+                "date": null
+            },
+            {
+                "name": "LGD Gaming",
+                "id": "1108",
+                "date": "October 2023"
+            },
+            {
+                "name": "Four Angry Men",
+                "id": "11980",
+                "date": null
+            },
+            {
+                "name": "UTT Esports",
+                "id": "10598",
+                "date": null
+            },
+            {
+                "name": "Five Ace Esports",
+                "id": "6397",
+                "date": null
+            }
+        ]
+    },
+    "37489": {
+        "id": "37489",
+        "ign": "Lysoar",
+        "real_name": "Liang Youhao (梁优好)",
+        "country": "CHINA",
+        "current_team": {
+            "name": "Xi Lai Gaming",
+            "id": "13581",
+            "joined": "November 2025"
+        },
+        "past_teams": [
+            {
+                "name": "Wolves Esports",
+                "id": "13790",
+                "date": "October 2024 – November 2025"
+            },
+            {
+                "name": "FunPlus Phoenix",
+                "id": "11328",
+                "date": "October 2024"
+            }
+        ]
+    },
+    "11527": {
+        "id": "11527",
+        "ign": "NoMan",
+        "real_name": "James Man",
+        "country": "HONG KONG",
+        "current_team": {
+            "name": "Xi Lai Gaming",
+            "id": "13581",
+            "joined": null
+        },
+        "past_teams": [
+            {
+                "name": "ESC Gaming",
+                "id": "8996",
+                "date": "January 2025 – January 2025"
+            },
+            {
+                "name": "Rare Atom",
+                "id": "11985",
+                "date": "August 2024 – October 2024"
+            },
+            {
+                "name": "eQuizers",
+                "id": "11240",
+                "date": null
+            },
+            {
+                "name": "K10",
+                "id": "10149",
+                "date": "January 2024 – February 2024"
+            },
+            {
+                "name": "Wintermint",
+                "id": "9351",
+                "date": null
+            },
+            {
+                "name": "CTRL Esports",
+                "id": "11267",
+                "date": "May 2023 – May 2023"
+            },
+            {
+                "name": "Nativz",
+                "id": "9443",
+                "date": "March 2023 – May 2023"
+            },
+            {
+                "name": "Oblivion Force",
+                "id": "3108",
+                "date": "August 2022"
+            }
+        ]
+    },
+    "39697": {
+        "id": "39697",
+        "ign": "cb",
+        "real_name": "Wang Qingchuan (王庆川)",
+        "country": "CHINA",
+        "current_team": {
+            "name": "EDward Gaming",
+            "id": "1120",
+            "joined": "November 2025"
+        },
+        "past_teams": [
+            {
+                "name": "Nova Esports",
+                "id": "12064",
+                "date": "September 2023 – November 2025"
+            }
+        ]
+    },
+    "4742": {
+        "id": "4742",
+        "ign": "Smoggy",
+        "real_name": "Zhang Zhao (张钊)",
+        "country": "CHINA",
+        "current_team": {
+            "name": "EDward Gaming",
+            "id": "1120",
+            "joined": "July 2022"
+        },
+        "past_teams": [
+            {
+                "name": "Weibo Gaming",
+                "id": "1224",
+                "date": null
+            },
+            {
+                "name": "For The Dream",
+                "id": "1214",
+                "date": null
+            }
+        ]
+    },
+    "3520": {
+        "id": "3520",
+        "ign": "ZmjjKK",
+        "real_name": "Zheng Yongkang (郑永康)",
+        "country": "CHINA",
+        "current_team": {
+            "name": "EDward Gaming",
+            "id": "1120",
+            "joined": "September 2021"
+        },
+        "past_teams": [
+            {
+                "name": "Qing Jiu Club",
+                "id": "6093",
+                "date": null
+            },
+            {
+                "name": "CBT Gaming",
+                "id": "904",
+                "date": null
+            },
+            {
+                "name": "Royal Never Give Up",
+                "id": "804",
+                "date": "May 2020"
+            }
+        ]
+    },
+    "15559": {
+        "id": "15559",
+        "ign": "CHICHOO",
+        "real_name": "Wan Shunzhi (万顺治)",
+        "country": "CHINA",
+        "current_team": {
+            "name": "EDward Gaming",
+            "id": "1120",
+            "joined": "May 2021"
+        },
+        "past_teams": []
+    },
+    "23169": {
+        "id": "23169",
+        "ign": "Minny",
+        "real_name": "Patrik Hušek",
+        "country": "CZECH REPUBLIC",
+        "current_team": {
+            "name": "Gentle Mates",
+            "id": "12694",
+            "joined": "December 2024"
+        },
+        "past_teams": [
+            {
+                "name": "GoNext Esports",
+                "id": "12474",
+                "date": "December 2023 – October 2024"
+            },
+            {
+                "name": "jardajagr",
+                "id": "13752",
+                "date": null
+            },
+            {
+                "name": "Enterprise Esports",
+                "id": "876",
+                "date": "March 2022 – December 2023"
+            },
+            {
+                "name": "Podnik",
+                "id": "7882",
+                "date": "March 2022"
+            }
+        ]
+    },
+    "18400": {
+        "id": "18400",
+        "ign": "bipo",
+        "real_name": "Taranvir Singh",
+        "country": "ITALY",
+        "current_team": {
+            "name": "Gentle Mates",
+            "id": "12694",
+            "joined": "November 2025"
+        },
+        "past_teams": [
+            {
+                "name": "MOUZ",
+                "id": "8044",
+                "date": "January 2025 – October 2025"
+            },
+            {
+                "name": "Team Italy",
+                "id": "10127",
+                "date": null
+            },
+            {
+                "name": "NOVO Esports",
+                "id": "13161",
+                "date": "August 2024"
+            },
+            {
+                "name": "GMT Esports",
+                "id": "10094",
+                "date": "December 2022 – September 2023"
+            },
+            {
+                "name": "Angry Titans",
+                "id": "3347",
+                "date": "April 2022 – August 2022"
+            },
+            {
+                "name": "DSYRE",
+                "id": "6538",
+                "date": "April 2022"
+            }
+        ]
+    },
+    "8286": {
+        "id": "8286",
+        "ign": "GLYPH",
+        "real_name": "Conner Garcia",
+        "country": "PHILIPPINES",
+        "current_team": {
+            "name": "Gentle Mates",
+            "id": "12694",
+            "joined": "November 2025"
+        },
+        "past_teams": [
+            {
+                "name": "Winthrop University",
+                "id": "10448",
+                "date": "July 2025 – November 2025"
+            },
+            {
+                "name": "Ambrosia",
+                "id": "11963",
+                "date": null
+            },
+            {
+                "name": "FUSION",
+                "id": "7269",
+                "date": "November 2024 – December 2024"
+            },
+            {
+                "name": "ILLICIT",
+                "id": "11709",
+                "date": "May 2024 – November 2024"
+            },
+            {
+                "name": "Mookah Rabbits",
+                "id": "15077",
+                "date": "January 2024 – May 2024"
+            },
+            {
+                "name": "UST Esports",
+                "id": "10505",
+                "date": "May 2025"
+            },
+            {
+                "name": "YFP",
+                "id": "5038",
+                "date": "June 2023"
+            },
+            {
+                "name": "The Silk Road",
+                "id": "6170",
+                "date": "March 2023 – May 2023"
+            },
+            {
+                "name": "OC Esports",
+                "id": "9558",
+                "date": "January 2023 – August 2023"
+            },
+            {
+                "name": "Team Reckaroo",
+                "id": "3748",
+                "date": "November 2022 – January 2023"
+            },
+            {
+                "name": "Team Reckaroo",
+                "id": "3748",
+                "date": "trial"
+            },
+            {
+                "name": "Pack a Punch",
+                "id": "7966",
+                "date": "January 2022 – April 2022"
+            },
+            {
+                "name": "Cloud9 Academy",
+                "id": "6213",
+                "date": "October 2021 – January 2022"
+            },
+            {
+                "name": "Teal Seam",
+                "id": "3944",
+                "date": "June 2021 – September 2021"
+            },
+            {
+                "name": "Last Round Save",
+                "id": "1300",
+                "date": "April 2021"
+            }
+        ]
+    },
+    "10307": {
+        "id": "10307",
+        "ign": "marteen",
+        "real_name": "Martin Pátek",
+        "country": "CZECH REPUBLIC",
+        "current_team": {
+            "name": "Gentle Mates",
+            "id": "12694",
+            "joined": "November 2025"
+        },
+        "past_teams": [
+            {
+                "name": "Karmine Corp",
+                "id": "8877",
+                "date": "December 2023 – November 2025"
+            },
+            {
+                "name": "GMT Esports",
+                "id": "10094",
+                "date": "October 2022 – August 2023"
+            },
+            {
+                "name": "Entropiq",
+                "id": "579",
+                "date": "October 2022"
+            },
+            {
+                "name": "Straight Outta Retirement",
+                "id": "6875",
+                "date": null
+            },
+            {
+                "name": "eSuba",
+                "id": "1474",
+                "date": "April 2021"
+            }
+        ]
+    },
+    "565": {
+        "id": "565",
+        "ign": "starxo",
+        "real_name": "Patryk Kopczynski",
+        "country": "POLAND",
+        "current_team": {
+            "name": "Gentle Mates",
+            "id": "12694",
+            "joined": "November 2025"
+        },
+        "past_teams": [
+            {
+                "name": "Joblife",
+                "id": "11232",
+                "date": "December 2024 – September 2025"
+            },
+            {
+                "name": "KOI",
+                "id": "7035",
+                "date": "January 2023 – September 2024"
+            },
+            {
+                "name": "Acend",
+                "id": "3531",
+                "date": "March 2021 – January 2023"
+            },
+            {
+                "name": "Raise Your Edge",
+                "id": "2577",
+                "date": "January 2021 – March 2021"
+            },
+            {
+                "name": "Don't Even Ask",
+                "id": "2318",
+                "date": "January 2021"
+            },
+            {
+                "name": "THOSE GUYS",
+                "id": "323",
+                "date": "September 2020"
+            }
+        ]
+    },
+    "9801": {
+        "id": "9801",
+        "ign": "f0rsakeN",
+        "real_name": "Jason Susanto",
+        "country": "INDONESIA",
+        "current_team": {
+            "name": "Paper Rex",
+            "id": "624",
+            "joined": "February 2021"
+        },
+        "past_teams": [
+            {
+                "name": "Paper Rex x Spotlight Series",
+                "id": "17069",
+                "date": "December 2024"
+            }
+        ]
+    },
+    "8504": {
+        "id": "8504",
+        "ign": "invy",
+        "real_name": "Adrian Jiggs Reyes",
+        "country": "PHILIPPINES",
+        "current_team": {
+            "name": "Paper Rex",
+            "id": "624",
+            "joined": "December 2025"
+        },
+        "past_teams": [
+            {
+                "name": "Team Secret",
+                "id": "6199",
+                "date": "October 2022 – December 2025"
+            },
+            {
+                "name": "Oasis Gaming",
+                "id": "3136",
+                "date": null
+            },
+            {
+                "name": "SV Empire",
+                "id": "4891",
+                "date": null
+            },
+            {
+                "name": "Hashira",
+                "id": "1932",
+                "date": null
+            }
+        ]
+    },
+    "9803": {
+        "id": "9803",
+        "ign": "d4v41",
+        "real_name": "Khalish Rusyaidee",
+        "country": "MALAYSIA",
+        "current_team": {
+            "name": "Paper Rex",
+            "id": "624",
+            "joined": "February 2021"
+        },
+        "past_teams": []
+    },
+    "17086": {
+        "id": "17086",
+        "ign": "something",
+        "real_name": "Ilya Petrov",
+        "country": "RUSSIA",
+        "current_team": {
+            "name": "Paper Rex",
+            "id": "624",
+            "joined": "March 2023"
+        },
+        "past_teams": [
+            {
+                "name": "Paper Rex x Spotlight Series",
+                "id": "17069",
+                "date": "December 2024"
+            },
+            {
+                "name": "Sengoku Gaming",
+                "id": "283",
+                "date": "December 2022 – March 2023"
+            },
+            {
+                "name": "Sengoku Gaming",
+                "id": "283",
+                "date": "May 2022 – December 2022"
+            },
+            {
+                "name": "BLUE BEES.ESP",
+                "id": "2108",
+                "date": "September 2021 – May 2022"
+            },
+            {
+                "name": "Insomnia",
+                "id": "5148",
+                "date": "March 2021 – August 2021"
+            }
+        ]
+    },
+    "7378": {
+        "id": "7378",
+        "ign": "Jinggg",
+        "real_name": "Wang Jing Jie",
+        "country": "SINGAPORE",
+        "current_team": {
+            "name": "Paper Rex",
+            "id": "624",
+            "joined": "September 2021"
+        },
+        "past_teams": [
+            {
+                "name": "Paper Rex x Spotlight Series",
+                "id": "17069",
+                "date": "December 2024"
+            },
+            {
+                "name": "Team SMG",
+                "id": "617",
+                "date": "June 2021 – September 2021"
+            },
+            {
+                "name": "Orgless",
+                "id": "3348",
+                "date": null
+            },
+            {
+                "name": "Reality Rift",
+                "id": "958",
+                "date": null
+            }
+        ]
+    },
+    "47413": {
+        "id": "47413",
+        "ign": "nathly",
+        "real_name": "",
+        "country": "MEXICO",
+        "current_team": {
+            "name": "Legiowon",
+            "id": "15135",
+            "joined": null
+        },
+        "past_teams": [
+            {
+                "name": "Trolls GC",
+                "id": "17526",
+                "date": null
+            },
+            {
+                "name": "TeamReis Rose",
+                "id": "17528",
+                "date": null
+            },
+            {
+                "name": "Legion Nyx",
+                "id": "16090",
+                "date": null
+            }
+        ]
+    },
+    "36128": {
+        "id": "36128",
+        "ign": "abruX",
+        "real_name": "",
+        "country": "ARGENTINA",
+        "current_team": {
+            "name": "No Sweat Blossom",
+            "id": "16085",
+            "joined": null
+        },
+        "past_teams": [
+            {
+                "name": "LEVIATÁN GC",
+                "id": "9205",
+                "date": "February 2025"
+            },
+            {
+                "name": "Return of the Ashes",
+                "id": "15882",
+                "date": null
+            },
+            {
+                "name": "Deagle Ravagers",
+                "id": "15141",
+                "date": null
+            }
+        ]
+    },
+    "28598": {
+        "id": "28598",
+        "ign": "Chloezera",
+        "real_name": "",
+        "country": "COSTA RICA",
+        "current_team": {
+            "name": "No Sweat Blossom",
+            "id": "16085",
+            "joined": null
+        },
+        "past_teams": [
+            {
+                "name": "FUSION X",
+                "id": "8310",
+                "date": null
+            },
+            {
+                "name": "NTH",
+                "id": "11800",
+                "date": null
+            },
+            {
+                "name": "MYVRA GC",
+                "id": "15139",
+                "date": null
+            },
+            {
+                "name": "FiRePOWER",
+                "id": "7413",
+                "date": "March 2023"
+            },
+            {
+                "name": "LEVIATÁN GC",
+                "id": "9205",
+                "date": null
+            }
+        ]
+    },
+    "61963": {
+        "id": "61963",
+        "ign": "Levy",
+        "real_name": "",
+        "country": "COLOMBIA",
+        "current_team": {
+            "name": "No Sweat Blossom",
+            "id": "16085",
+            "joined": null
+        },
+        "past_teams": []
+    },
+    "20539": {
+        "id": "20539",
+        "ign": "JuW",
+        "real_name": "",
+        "country": "GUATEMALA",
+        "current_team": {
+            "name": "No Sweat Blossom",
+            "id": "16085",
+            "joined": null
+        },
+        "past_teams": [
+            {
+                "name": "MYVRA GC",
+                "id": "15139",
+                "date": "February 2025"
+            },
+            {
+                "name": "Akave Esports GC",
+                "id": "7412",
+                "date": "February 2024 – February 2025"
+            },
+            {
+                "name": "FiRePOWER",
+                "id": "7413",
+                "date": null
+            },
+            {
+                "name": "Worst Generation",
+                "id": "6550",
+                "date": null
+            }
+        ]
+    },
+    "35923": {
+        "id": "35923",
+        "ign": "vale",
+        "real_name": "",
+        "country": "PUERTO RICO",
+        "current_team": {
+            "name": "No Sweat Blossom",
+            "id": "16085",
+            "joined": null
+        },
+        "past_teams": [
+            {
+                "name": "Making It Look Easy GC",
+                "id": "11803",
+                "date": null
+            }
+        ]
+    },
+    "45193": {
+        "id": "45193",
+        "ign": "Less",
+        "real_name": "",
+        "country": "EL SALVADOR",
+        "current_team": {
+            "name": "Legiowon",
+            "id": "15135",
+            "joined": null
+        },
+        "past_teams": [
+            {
+                "name": "Hyperion Girls",
+                "id": "18546",
+                "date": null
+            },
+            {
+                "name": "PAW Patrol GC",
+                "id": "18679",
+                "date": null
+            },
+            {
+                "name": "Patrulla Patitas GC",
+                "id": "18547",
+                "date": null
+            },
+            {
+                "name": "TeamReis Rose",
+                "id": "17528",
+                "date": null
+            },
+            {
+                "name": "PRISMATIC EVOLUTION",
+                "id": "17532",
+                "date": null
+            },
+            {
+                "name": "FEK ESPORTS GC",
+                "id": "16089",
+                "date": null
+            },
+            {
+                "name": "Legión Mapaches Rabiosas",
+                "id": "15406",
+                "date": null
+            }
+        ]
+    },
+    "47059": {
+        "id": "47059",
+        "ign": "Jinx",
+        "real_name": "",
+        "country": "MEXICO",
+        "current_team": {
+            "name": "Free Agent",
+            "id": null,
+            "joined": null
+        },
+        "past_teams": [
+            {
+                "name": "NovaCrew GC",
+                "id": "16091",
+                "date": null
+            },
+            {
+                "name": "Kitzune Zenko Division Kurenai",
+                "id": "17524",
+                "date": null
+            },
+            {
+                "name": "Dark Abyss",
+                "id": "16084",
+                "date": null
+            }
+        ]
+    },
+    "61959": {
+        "id": "61959",
+        "ign": "aileen",
+        "real_name": "",
+        "country": "COLOMBIA",
+        "current_team": {
+            "name": "Legiowon",
+            "id": "15135",
+            "joined": null
+        },
+        "past_teams": []
+    },
+    "57429": {
+        "id": "57429",
+        "ign": "Kaitty",
+        "real_name": "",
+        "country": "COSTA RICA",
+        "current_team": {
+            "name": "Legiowon",
+            "id": "15135",
+            "joined": null
+        },
+        "past_teams": [
+            {
+                "name": "Electric cherries",
+                "id": "19515",
+                "date": null
+            }
+        ]
+    },
+    "45801": {
+        "id": "45801",
+        "ign": "terror",
+        "real_name": "",
+        "country": "UNITED STATES",
+        "current_team": {
+            "name": "100 Thieves GC",
+            "id": "19510",
+            "joined": "February 2026"
+        },
+        "past_teams": [
+            {
+                "name": "Hakikimori GC",
+                "id": "18356",
+                "date": "June 2025"
+            },
+            {
+                "name": "Shrimp Gaming",
+                "id": "17489",
+                "date": "April 2025"
+            },
+            {
+                "name": "Tenax",
+                "id": "9991",
+                "date": null
+            },
+            {
+                "name": "Endear Esports",
+                "id": "17062",
+                "date": null
+            },
+            {
+                "name": "oomfies",
+                "id": "16019",
+                "date": null
+            },
+            {
+                "name": "Thrive GC",
+                "id": "16005",
+                "date": null
+            },
+            {
+                "name": "HyperSpeed Ruby",
+                "id": "14720",
+                "date": null
+            }
+        ]
+    },
+    "43254": {
+        "id": "43254",
+        "ign": "may",
+        "real_name": "",
+        "country": "PARAGUAY",
+        "current_team": {
+            "name": "Blue Otter GC",
+            "id": "19668",
+            "joined": "August 2025"
+        },
+        "past_teams": [
+            {
+                "name": "Equinox",
+                "id": "19309",
+                "date": null
+            },
+            {
+                "name": "Elation Vortex",
+                "id": "16498",
+                "date": null
+            },
+            {
+                "name": "Everyone Really Misses",
+                "id": "16283",
+                "date": null
+            },
+            {
+                "name": "minions united",
+                "id": "15179",
+                "date": null
+            }
+        ]
+    },
+    "25514": {
+        "id": "25514",
+        "ign": "cyn",
+        "real_name": "",
+        "country": "CANADA",
+        "current_team": {
+            "name": "Blue Otter GC",
+            "id": "19668",
+            "joined": "February 2026"
+        },
+        "past_teams": [
+            {
+                "name": ":3",
+                "id": "13565",
+                "date": null
+            },
+            {
+                "name": "Fallacy",
+                "id": "9124",
+                "date": "July 2022"
+            },
+            {
+                "name": "Team Kittenz",
+                "id": "8236",
+                "date": "April 2022"
+            }
+        ]
+    },
+    "43335": {
+        "id": "43335",
+        "ign": "Battison",
+        "real_name": "",
+        "country": "UNITED STATES",
+        "current_team": {
+            "name": "Blue Otter GC",
+            "id": "19668",
+            "joined": "February 2026"
+        },
+        "past_teams": [
+            {
+                "name": "Teevee",
+                "id": "18196",
+                "date": null
+            },
+            {
+                "name": "Hyper Reserve GC",
+                "id": "17377",
+                "date": "February 2025"
+            },
+            {
+                "name": "SaD Frost",
+                "id": "16241",
+                "date": "October 2024"
+            },
+            {
+                "name": "Give Wingman 2 Nuclear Devices",
+                "id": "16149",
+                "date": null
+            },
+            {
+                "name": "Van Lyn Frost",
+                "id": "15034",
+                "date": null
+            }
+        ]
+    },
+    "50817": {
+        "id": "50817",
+        "ign": "zoriental",
+        "real_name": "",
+        "country": "SOUTH KOREA",
+        "current_team": {
+            "name": "100 Thieves GC",
+            "id": "19510",
+            "joined": "February 2026"
+        },
+        "past_teams": [
+            {
+                "name": "Monarch X",
+                "id": "20479",
+                "date": null
+            },
+            {
+                "name": "YFP X",
+                "id": "13301",
+                "date": "May 2025"
+            },
+            {
+                "name": "Tenax GC",
+                "id": "14715",
+                "date": "February 2025 – April 2025"
+            },
+            {
+                "name": "Momentum GC",
+                "id": "16710",
+                "date": "January 2025 – February 2025"
+            }
+        ]
+    },
+    "28535": {
+        "id": "28535",
+        "ign": "misu",
+        "real_name": "",
+        "country": "SOUTH KOREA",
+        "current_team": {
+            "name": "100 Thieves GC",
+            "id": "19510",
+            "joined": "February 2026"
+        },
+        "past_teams": [
+            {
+                "name": "100 Thieves GC",
+                "id": "19510",
+                "date": "August 2025 – October 2025"
+            },
+            {
+                "name": "Aussie and Friends",
+                "id": "17859",
+                "date": null
+            },
+            {
+                "name": "YFP X",
+                "id": "13301",
+                "date": "March 2025"
+            },
+            {
+                "name": "Bun N' Gun",
+                "id": "17492",
+                "date": "March 2025"
+            },
+            {
+                "name": "Reformed GC",
+                "id": "15312",
+                "date": null
+            },
+            {
+                "name": "Paw Pals",
+                "id": "14724",
+                "date": "May 2024"
+            },
+            {
+                "name": "Disguised GC",
+                "id": "12464",
+                "date": "July 2023 – December 2023"
+            },
+            {
+                "name": "capuwu",
+                "id": "12319",
+                "date": null
+            },
+            {
+                "name": "Winx Club",
+                "id": "8167",
+                "date": null
+            },
+            {
+                "name": "Sanri-O's",
+                "id": "9264",
+                "date": "January 2023"
+            },
+            {
+                "name": "OINK RIBBIT MEOW",
+                "id": "9266",
+                "date": null
+            }
+        ]
+    },
+    "37923": {
+        "id": "37923",
+        "ign": "oasis",
+        "real_name": "",
+        "country": "ICELAND",
+        "current_team": {
+            "name": "Blue Otter GC",
+            "id": "19668",
+            "joined": "August 2025"
+        },
+        "past_teams": [
+            {
+                "name": "Equinox",
+                "id": "19309",
+                "date": null
+            },
+            {
+                "name": "Akave Esports GC",
+                "id": "7412",
+                "date": "February 2025"
+            },
+            {
+                "name": "KS Hunters",
+                "id": "15138",
+                "date": null
+            },
+            {
+                "name": "Paw Pals",
+                "id": "14724",
+                "date": "May 2024"
+            },
+            {
+                "name": "Supernova Galaxy",
+                "id": "13316",
+                "date": "July 2023 – September 2023"
+            },
+            {
+                "name": "noot noot",
+                "id": "11689",
+                "date": "October 2023"
+            }
+        ]
+    },
+    "17950": {
+        "id": "17950",
+        "ign": "avery",
+        "real_name": "",
+        "country": "SWEDEN",
+        "current_team": {
+            "name": "Blue Otter GC",
+            "id": "19668",
+            "joined": "February 2026"
+        },
+        "past_teams": [
+            {
+                "name": "Ghost Gaming",
+                "id": "18364",
+                "date": "September 2025 – December 2025"
+            },
+            {
+                "name": "kessoku band",
+                "id": "18198",
+                "date": "April 2025 – May 2025"
+            },
+            {
+                "name": "Bun N' Gun",
+                "id": "17492",
+                "date": "February 2025"
+            },
+            {
+                "name": "oomfies",
+                "id": "16019",
+                "date": null
+            },
+            {
+                "name": "YFP X",
+                "id": "13301",
+                "date": "April 2024"
+            },
+            {
+                "name": "Supernova Galaxy",
+                "id": "13316",
+                "date": "November 2023 – March 2024"
+            },
+            {
+                "name": "Wingman Patrol",
+                "id": "13659",
+                "date": "November 2023"
+            },
+            {
+                "name": "Velaris",
+                "id": "11699",
+                "date": null
+            },
+            {
+                "name": "dart monkeys",
+                "id": "8159",
+                "date": "September 2022 – October 2022"
+            },
+            {
+                "name": "Nerd Emoji",
+                "id": "5587",
+                "date": "September 2021"
+            }
+        ]
+    },
+    "32667": {
+        "id": "32667",
+        "ign": "Nora",
+        "real_name": "",
+        "country": "UNITED STATES",
+        "current_team": {
+            "name": "100 Thieves GC",
+            "id": "19510",
+            "joined": "February 2026"
+        },
+        "past_teams": [
+            {
+                "name": "Prosperity Esports",
+                "id": "17401",
+                "date": "April 2025"
+            },
+            {
+                "name": "Team Mythic",
+                "id": "16733",
+                "date": "October 2024"
+            },
+            {
+                "name": "Solstice",
+                "id": "15442",
+                "date": null
+            },
+            {
+                "name": "mesos millionaires",
+                "id": "14722",
+                "date": null
+            },
+            {
+                "name": "Evil Geniuses GC",
+                "id": "9547",
+                "date": "November 2023 – December 2023"
+            },
+            {
+                "name": "Supernova Galaxy",
+                "id": "13316",
+                "date": "July 2023 – November 2023"
+            },
+            {
+                "name": "noot noot",
+                "id": "11689",
+                "date": "October 2023"
+            },
+            {
+                "name": "Clicken Chickens",
+                "id": "6960",
+                "date": "January 2023"
+            },
+            {
+                "name": "Sanri-O's",
+                "id": "9264",
+                "date": "December 2022 – January 2023"
+            },
+            {
+                "name": "ROSE",
+                "id": "11648",
+                "date": null
+            }
+        ]
+    },
+    "17977": {
+        "id": "17977",
+        "ign": "lidyuh",
+        "real_name": "Lydia Wilson",
+        "country": "UNITED STATES",
+        "current_team": {
+            "name": "100 Thieves GC",
+            "id": "19510",
+            "joined": "August 2025"
+        },
+        "past_teams": [
+            {
+                "name": "Aussie and Friends",
+                "id": "17859",
+                "date": null
+            },
+            {
+                "name": "Disguised GC",
+                "id": "12464",
+                "date": "March 2023 – April 2023"
+            },
+            {
+                "name": "Immortals",
+                "id": "7875",
+                "date": "March 2022 – February 2023"
+            },
+            {
+                "name": "STWB",
+                "id": "6112",
+                "date": null
+            }
+        ]
+    },
+    "8329": {
+        "id": "8329",
+        "ign": "StarBound",
+        "real_name": "",
+        "country": "CANADA",
+        "current_team": {
+            "name": "Wadadaa",
+            "id": "16453",
+            "joined": null
+        },
+        "past_teams": [
+            {
+                "name": "FlyQuest RED",
+                "id": "6456",
+                "date": "January 2024 – January 2025"
+            },
+            {
+                "name": "Evil Geniuses GC",
+                "id": "9547",
+                "date": "October 2023 – December 2023"
+            },
+            {
+                "name": "Velaris",
+                "id": "11699",
+                "date": null
+            },
+            {
+                "name": "Team Flux",
+                "id": "2210",
+                "date": null
+            }
+        ]
+    },
+    "15016": {
+        "id": "15016",
+        "ign": "joona",
+        "real_name": "",
+        "country": "UNITED STATES",
+        "current_team": {
+            "name": "Wadadaa",
+            "id": "16453",
+            "joined": null
+        },
+        "past_teams": [
+            {
+                "name": "BCR",
+                "id": "11005",
+                "date": null
+            },
+            {
+                "name": "Vengeance",
+                "id": "6116",
+                "date": null
+            }
+        ]
+    },
+    "33694": {
+        "id": "33694",
+        "ign": "evv",
+        "real_name": "",
+        "country": "CANADA",
+        "current_team": {
+            "name": "FlyQuest RED",
+            "id": "6456",
+            "joined": null
+        },
+        "past_teams": [
+            {
+                "name": "YFP X",
+                "id": "13301",
+                "date": "March 2024"
+            },
+            {
+                "name": "FlyQuest RED",
+                "id": "6456",
+                "date": "March 2025"
+            },
+            {
+                "name": "FlyQuest RED",
+                "id": "6456",
+                "date": "October 2024 – January 2025"
+            },
+            {
+                "name": "Supernova Galaxy",
+                "id": "13316",
+                "date": "November 2023 – March 2024"
+            },
+            {
+                "name": "Akumu",
+                "id": "12259",
+                "date": "March 2023"
+            }
+        ]
+    },
+    "17": {
+        "id": "17",
+        "ign": "theia",
+        "real_name": "Melisa Mundorff",
+        "country": "UNITED STATES",
+        "current_team": {
+            "name": "FlyQuest RED",
+            "id": "6456",
+            "joined": "January 2024 – January 2025"
+        },
+        "past_teams": [
+            {
+                "name": "FlyQuest RED",
+                "id": "6456",
+                "date": "March 2025"
+            },
+            {
+                "name": "Evil Geniuses GC",
+                "id": "9547",
+                "date": "August 2022 – December 2023"
+            },
+            {
+                "name": "Dignitas",
+                "id": "7",
+                "date": "August 2022"
+            }
+        ]
+    },
+    "19556": {
+        "id": "19556",
+        "ign": "melya",
+        "real_name": "Emily Khan",
+        "country": "PAKISTAN",
+        "current_team": {
+            "name": "FlyQuest RED",
+            "id": "6456",
+            "joined": null
+        },
+        "past_teams": [
+            {
+                "name": "100 Thieves GC",
+                "id": "19510",
+                "date": "August 2025 – December 2025"
+            },
+            {
+                "name": "Aussie and Friends",
+                "id": "17859",
+                "date": null
+            },
+            {
+                "name": "Error 404",
+                "id": "17694",
+                "date": null
+            },
+            {
+                "name": "Green Grapes",
+                "id": "17239",
+                "date": null
+            },
+            {
+                "name": "Gekko",
+                "id": "16386",
+                "date": null
+            },
+            {
+                "name": "Team Mythic",
+                "id": "16733",
+                "date": "October 2024"
+            },
+            {
+                "name": "Elation Esports",
+                "id": "12029",
+                "date": null
+            },
+            {
+                "name": "YFP X",
+                "id": "13301",
+                "date": null
+            },
+            {
+                "name": "Nearest Airport",
+                "id": "8264",
+                "date": "September 2024"
+            },
+            {
+                "name": "Solstice",
+                "id": "15442",
+                "date": null
+            },
+            {
+                "name": "Berzerkers Night",
+                "id": "13494",
+                "date": null
+            },
+            {
+                "name": "Tempest Gaming",
+                "id": "8451",
+                "date": "head coach"
+            },
+            {
+                "name": "YFP Black",
+                "id": "8265",
+                "date": "August 2022"
+            },
+            {
+                "name": "Moon Raccoons Black",
+                "id": "4920",
+                "date": "February 2022"
+            }
+        ]
+    },
+    "24237": {
+        "id": "24237",
+        "ign": "PowerPixele",
+        "real_name": "",
+        "country": "UNITED STATES",
+        "current_team": {
+            "name": "Reformed",
+            "id": "20658",
+            "joined": null
+        },
+        "past_teams": [
+            {
+                "name": "Passion Project",
+                "id": "14718",
+                "date": null
+            },
+            {
+                "name": "Evil Geniuses GC",
+                "id": "9547",
+                "date": "March 2023 – December 2023"
+            },
+            {
+                "name": "BCR",
+                "id": "11005",
+                "date": null
+            },
+            {
+                "name": "Complexity GX3",
+                "id": "6200",
+                "date": "September 2022 – January 2023"
+            },
+            {
+                "name": "Team Mystic Venus",
+                "id": "6505",
+                "date": "May 2022 – September 2022"
+            },
+            {
+                "name": "OneShot Esports",
+                "id": "7837",
+                "date": null
+            }
+        ]
+    },
+    "25246": {
+        "id": "25246",
+        "ign": "bunnybee",
+        "real_name": "",
+        "country": "UNITED STATES",
+        "current_team": {
+            "name": "Wadadaa",
+            "id": "16453",
+            "joined": null
+        },
+        "past_teams": [
+            {
+                "name": "Hakikimori GC",
+                "id": "18356",
+                "date": "June 2025"
+            },
+            {
+                "name": "Ghost Gaming",
+                "id": "18364",
+                "date": "April 2025 – June 2025"
+            },
+            {
+                "name": "Overkill",
+                "id": "9564",
+                "date": "April 2025"
+            },
+            {
+                "name": "YFP X",
+                "id": "13301",
+                "date": "March 2025"
+            },
+            {
+                "name": "Fisher Fruit",
+                "id": "17102",
+                "date": null
+            },
+            {
+                "name": "oomfies",
+                "id": "16019",
+                "date": null
+            },
+            {
+                "name": "floppers",
+                "id": "15796",
+                "date": "June 2024"
+            },
+            {
+                "name": "Paw Pals",
+                "id": "14724",
+                "date": "May 2024"
+            },
+            {
+                "name": "Supernova Galaxy",
+                "id": "13316",
+                "date": "November 2023 – February 2024"
+            },
+            {
+                "name": "Wingman Patrol",
+                "id": "13659",
+                "date": "November 2023"
+            },
+            {
+                "name": "XSET",
+                "id": "6314",
+                "date": "April 2023 – September 2023"
+            },
+            {
+                "name": "riribunobsumi",
+                "id": "11414",
+                "date": null
+            },
+            {
+                "name": "Team Stewie2k",
+                "id": "10345",
+                "date": null
+            },
+            {
+                "name": "XSET",
+                "id": "6314",
+                "date": "October 2022 – April 2023"
+            },
+            {
+                "name": "Super Monkey Fanclub",
+                "id": "8474",
+                "date": null
+            },
+            {
+                "name": "dart monkeys",
+                "id": "8159",
+                "date": "February 2022 – September 2022"
+            }
+        ]
+    },
+    "15039": {
+        "id": "15039",
+        "ign": "Australis",
+        "real_name": "",
+        "country": "UNITED STATES",
+        "current_team": {
+            "name": "Wadadaa",
+            "id": "16453",
+            "joined": null
+        },
+        "past_teams": [
+            {
+                "name": "SaD Frost",
+                "id": "16241",
+                "date": null
+            },
+            {
+                "name": "FT Silvxs",
+                "id": "13737",
+                "date": "September 2023"
+            },
+            {
+                "name": "Velaris",
+                "id": "11699",
+                "date": null
+            },
+            {
+                "name": "Ariana Grande Perfume",
+                "id": "9330",
+                "date": null
+            },
+            {
+                "name": "TradeLikePros Blue",
+                "id": "4639",
+                "date": null
+            }
+        ]
+    },
+    "3077": {
+        "id": "3077",
+        "ign": "Jazzyk1ns",
+        "real_name": "Jasmine Manankil",
+        "country": "CANADA",
+        "current_team": {
+            "name": "FlyQuest RED",
+            "id": "6456",
+            "joined": null
+        },
+        "past_teams": [
+            {
+                "name": "St. Clair Saints",
+                "id": "9975",
+                "date": "July 2025"
+            },
+            {
+                "name": "100 Thieves GC",
+                "id": "19510",
+                "date": "August 2025 – November 2025"
+            },
+            {
+                "name": "Aussie and Friends",
+                "id": "17859",
+                "date": null
+            },
+            {
+                "name": "FlyQuest RED",
+                "id": "6456",
+                "date": "February 2025 – March 2025"
+            },
+            {
+                "name": "Passion Project",
+                "id": "14718",
+                "date": "June 2024"
+            },
+            {
+                "name": "Complexity GX3",
+                "id": "6200",
+                "date": "January 2023 – December 2023"
+            },
+            {
+                "name": "Cloud9 White",
+                "id": "1267",
+                "date": "October 2020 – December 2022"
+            }
+        ]
+    },
+    "30395": {
+        "id": "30395",
+        "ign": "edith",
+        "real_name": "Eden Bryce Cutlip",
+        "country": "UNITED STATES",
+        "current_team": {
+            "name": "FlyQuest RED",
+            "id": "6456",
+            "joined": null
+        },
+        "past_teams": [
+            {
+                "name": "Ghost Gaming",
+                "id": "18364",
+                "date": "July 2025"
+            },
+            {
+                "name": "Misfits Black",
+                "id": "6727",
+                "date": "December 2022 – October 2023"
+            },
+            {
+                "name": "Gen.G Black",
+                "id": "4475",
+                "date": "September 2022 – December 2022"
+            }
+        ]
+    },
+    "8460": {
+        "id": "8460",
+        "ign": "Lolo",
+        "real_name": "",
+        "country": "BRAZIL",
+        "current_team": {
+            "name": "Olimpo Gold",
+            "id": "21092",
+            "joined": null
+        },
+        "past_teams": [
+            {
+                "name": "Não estamos aqui",
+                "id": "19610",
+                "date": null
+            },
+            {
+                "name": "creche do m4dara",
+                "id": "15522",
+                "date": null
+            },
+            {
+                "name": "temp",
+                "id": "12234",
+                "date": null
+            },
+            {
+                "name": "Intense Game",
+                "id": "10762",
+                "date": null
+            },
+            {
+                "name": "4 ruim e 1 ruim",
+                "id": "7640",
+                "date": null
+            },
+            {
+                "name": "Maniacos da Mira",
+                "id": "8271",
+                "date": null
+            },
+            {
+                "name": "Odin&Amigos",
+                "id": "4767",
+                "date": null
+            },
+            {
+                "name": "Black Ninjas e-Sports",
+                "id": "1365",
+                "date": null
+            }
+        ]
+    },
+    "44532": {
+        "id": "44532",
+        "ign": "nori",
+        "real_name": "",
+        "country": "CHILE",
+        "current_team": {
+            "name": "Polar Squad Esports GC",
+            "id": "11802",
+            "joined": "January 2026"
+        },
+        "past_teams": [
+            {
+                "name": "Gold Evictix",
+                "id": "18946",
+                "date": "June 2025 – September 2025"
+            },
+            {
+                "name": "Prasso Clan",
+                "id": "17704",
+                "date": "March 2025"
+            },
+            {
+                "name": "Euphoria GC",
+                "id": "17500",
+                "date": null
+            },
+            {
+                "name": "Dasein Club GC",
+                "id": "15410",
+                "date": "August 2024"
+            },
+            {
+                "name": "OXEN GC",
+                "id": "15708",
+                "date": "May 2024"
+            },
+            {
+                "name": "ROYAL ONSLAUGHT GAMING",
+                "id": "15407",
+                "date": "May 2024"
+            },
+            {
+                "name": "Nozomi",
+                "id": "15148",
+                "date": null
+            }
+        ]
+    },
+    "44534": {
+        "id": "44534",
+        "ign": "Mawyk",
+        "real_name": "",
+        "country": "ARGENTINA",
+        "current_team": {
+            "name": "Polar Squad Esports GC",
+            "id": "11802",
+            "joined": "January 2026"
+        },
+        "past_teams": [
+            {
+                "name": "Gold Evictix",
+                "id": "18946",
+                "date": "June 2025 – September 2025"
+            },
+            {
+                "name": "Prasso Clan",
+                "id": "17704",
+                "date": "March 2025"
+            },
+            {
+                "name": "Euphoria GC",
+                "id": "17500",
+                "date": null
+            },
+            {
+                "name": "rEVO",
+                "id": "16096",
+                "date": null
+            },
+            {
+                "name": "Bellakitas",
+                "id": "15192",
+                "date": null
+            },
+            {
+                "name": "ROYAL ONSLAUGHT GAMING",
+                "id": "15407",
+                "date": "May 2024"
+            },
+            {
+                "name": "Nozomi",
+                "id": "15148",
+                "date": null
+            }
+        ]
+    },
+    "45742": {
+        "id": "45742",
+        "ign": "lupe",
+        "real_name": "",
+        "country": "ARGENTINA",
+        "current_team": {
+            "name": "Olimpo Gold",
+            "id": "21092",
+            "joined": null
+        },
+        "past_teams": [
+            {
+                "name": "Gold Evictix",
+                "id": "18946",
+                "date": "June 2025 – September 2025"
+            },
+            {
+                "name": "Prasso Clan",
+                "id": "17704",
+                "date": null
+            },
+            {
+                "name": "HellGuardians Esports",
+                "id": "17504",
+                "date": null
+            },
+            {
+                "name": "Quantico Angels",
+                "id": "15563",
+                "date": null
+            }
+        ]
+    },
+    "21571": {
+        "id": "21571",
+        "ign": "awus",
+        "real_name": "",
+        "country": "ARGENTINA",
+        "current_team": {
+            "name": "Polar Squad Esports GC",
+            "id": "11802",
+            "joined": "January 2026"
+        },
+        "past_teams": [
+            {
+                "name": "Lalitos Team",
+                "id": "19528",
+                "date": "August 2025"
+            },
+            {
+                "name": "Polar Squad Esports GC",
+                "id": "11802",
+                "date": "June 2025"
+            },
+            {
+                "name": "MIX",
+                "id": "17574",
+                "date": null
+            },
+            {
+                "name": "New Combat Line",
+                "id": "15137",
+                "date": "January 2025 – February 2025"
+            },
+            {
+                "name": "Dasein Club GC",
+                "id": "15410",
+                "date": "August 2024"
+            },
+            {
+                "name": "Sphinx",
+                "id": "16228",
+                "date": null
+            },
+            {
+                "name": "PPX PROJECT",
+                "id": "16095",
+                "date": null
+            },
+            {
+                "name": "OXEN GC",
+                "id": "15708",
+                "date": "May 2024"
+            },
+            {
+                "name": "ROYAL ONSLAUGHT GAMING",
+                "id": "15407",
+                "date": "May 2024"
+            },
+            {
+                "name": "Dasein Club GC",
+                "id": "15410",
+                "date": null
+            },
+            {
+                "name": "NEKOMA TEAM",
+                "id": "15143",
+                "date": null
+            },
+            {
+                "name": "NIGHTMARES ESPORTS",
+                "id": "11814",
+                "date": null
+            },
+            {
+                "name": "EXIS",
+                "id": "6829",
+                "date": null
+            }
+        ]
+    },
+    "44513": {
+        "id": "44513",
+        "ign": "Pinky D",
+        "real_name": "",
+        "country": "ARGENTINA",
+        "current_team": {
+            "name": "Olimpo Gold",
+            "id": "21092",
+            "joined": null
+        },
+        "past_teams": [
+            {
+                "name": "Gold Evictix",
+                "id": "18946",
+                "date": "June 2025 – September 2025"
+            },
+            {
+                "name": "Quantico Nyx",
+                "id": "18326",
+                "date": null
+            },
+            {
+                "name": "Not Fear GC",
+                "id": "17501",
+                "date": null
+            },
+            {
+                "name": "raised",
+                "id": "16226",
+                "date": null
+            },
+            {
+                "name": "Deagle Ravagers",
+                "id": "15141",
+                "date": null
+            }
+        ]
+    },
+    "3158": {
+        "id": "3158",
+        "ign": "theozy",
+        "real_name": "Theodor Tars",
+        "country": "URUGUAY",
+        "current_team": {
+            "name": "Olimpo Gold",
+            "id": "21092",
+            "joined": null
+        },
+        "past_teams": [
+            {
+                "name": "phopho's silly kittens :3",
+                "id": "20058",
+                "date": null
+            },
+            {
+                "name": "Não estamos aqui",
+                "id": "19610",
+                "date": null
+            },
+            {
+                "name": "University War GC",
+                "id": "14958",
+                "date": "December 2024"
+            },
+            {
+                "name": "TropiCaos GC",
+                "id": "8188",
+                "date": "coach"
+            },
+            {
+                "name": "Stars Horizon",
+                "id": "7013",
+                "date": "head coach"
+            },
+            {
+                "name": "Stars Horizon Vênus",
+                "id": "5941",
+                "date": "coach"
+            },
+            {
+                "name": "Team Vikings Female",
+                "id": "3346",
+                "date": "head coach"
+            }
+        ]
+    },
+    "35876": {
+        "id": "35876",
+        "ign": "tconda",
+        "real_name": "",
+        "country": "CHILE",
+        "current_team": {
+            "name": "Polar Squad Esports GC",
+            "id": "11802",
+            "joined": null
+        },
+        "past_teams": [
+            {
+                "name": "University War GC",
+                "id": "14958",
+                "date": "February 2026"
+            },
+            {
+                "name": "Zen eSports GC",
+                "id": "15153",
+                "date": "June 2024"
+            },
+            {
+                "name": "Cruzados Esports Fem",
+                "id": "9078",
+                "date": "May 2023 – May 2024"
+            },
+            {
+                "name": "IVE",
+                "id": "11822",
+                "date": null
+            }
+        ]
+    },
+    "35907": {
+        "id": "35907",
+        "ign": "Naxa",
+        "real_name": "",
+        "country": "CHILE",
+        "current_team": {
+            "name": "Polar Squad Esports GC",
+            "id": "11802",
+            "joined": "January 2026"
+        },
+        "past_teams": [
+            {
+                "name": "Lalitos Team",
+                "id": "19528",
+                "date": "August 2025"
+            },
+            {
+                "name": "Zen eSports GC",
+                "id": "15153",
+                "date": "June 2025"
+            },
+            {
+                "name": "GOLD SYNDICATE",
+                "id": "17499",
+                "date": null
+            },
+            {
+                "name": "University War GC",
+                "id": "14958",
+                "date": "December 2024"
+            },
+            {
+                "name": "Zen eSports GC",
+                "id": "15153",
+                "date": "June 2024"
+            },
+            {
+                "name": "OXEN GC",
+                "id": "15708",
+                "date": "May 2024 – June 2024"
+            },
+            {
+                "name": "ROYAL ONSLAUGHT GAMING",
+                "id": "15407",
+                "date": "May 2024"
+            },
+            {
+                "name": "Dasein Club GC",
+                "id": "15410",
+                "date": null
+            },
+            {
+                "name": "NEKOMA TEAM",
+                "id": "15143",
+                "date": null
+            },
+            {
+                "name": "ZIES FEM",
+                "id": "11816",
+                "date": null
+            }
+        ]
+    },
+    "25741": {
+        "id": "25741",
+        "ign": "Lied",
+        "real_name": "",
+        "country": "PERU",
+        "current_team": {
+            "name": "Olimpo Gold",
+            "id": "21092",
+            "joined": null
+        },
+        "past_teams": [
+            {
+                "name": "Akave Esports GC",
+                "id": "7412",
+                "date": "February 2025 – November 2025"
+            },
+            {
+                "name": "FUSION X",
+                "id": "8310",
+                "date": null
+            },
+            {
+                "name": "Gaming Up",
+                "id": "12881",
+                "date": null
+            },
+            {
+                "name": "Skull Cracker Quartz",
+                "id": "6541",
+                "date": "July 2022"
+            },
+            {
+                "name": "Atrenun Venus",
+                "id": "9204",
+                "date": null
+            },
+            {
+                "name": "Unnamed Esports Fem",
+                "id": "6822",
+                "date": null
+            }
+        ]
+    },
+    "23976": {
+        "id": "23976",
+        "ign": "Crus",
+        "real_name": "Lư Tiến Huy",
+        "country": "VIETNAM",
+        "current_team": {
+            "name": "4 shurima",
+            "id": "21217",
+            "joined": null
+        },
+        "past_teams": [
+            {
+                "name": "Circus Cyber",
+                "id": "20047",
+                "date": null
+            },
+            {
+                "name": "Circus Cyber",
+                "id": "20047",
+                "date": null
+            },
+            {
+                "name": "Fancy United Esports",
+                "id": "4330",
+                "date": "September 2023"
+            },
+            {
+                "name": "Syko",
+                "id": "12421",
+                "date": null
+            },
+            {
+                "name": "MEOGANG",
+                "id": "4502",
+                "date": null
+            },
+            {
+                "name": "Team Ronin",
+                "id": "8796",
+                "date": "September 2022"
+            },
+            {
+                "name": "Team Deadshot",
+                "id": "8469",
+                "date": null
+            },
+            {
+                "name": "The Zoo",
+                "id": "7673",
+                "date": null
+            }
+        ]
+    },
+    "46463": {
+        "id": "46463",
+        "ign": "twilight",
+        "real_name": "",
+        "country": "VIETNAM",
+        "current_team": {
+            "name": "Fancy United Esports",
+            "id": "4330",
+            "joined": null
+        },
+        "past_teams": []
+    },
+    "51893": {
+        "id": "51893",
+        "ign": "minh2",
+        "real_name": "Nhu Gia Minh",
+        "country": "VIETNAM",
+        "current_team": {
+            "name": "4 shurima",
+            "id": "21217",
+            "joined": null
+        },
+        "past_teams": [
+            {
+                "name": "God Chosen",
+                "id": "16927",
+                "date": null
+            },
+            {
+                "name": "Homeless Gang",
+                "id": "17777",
+                "date": null
+            }
+        ]
+    },
+    "14213": {
+        "id": "14213",
+        "ign": "ting2k5",
+        "real_name": "Dường Mạnh Thắng",
+        "country": "VIETNAM",
+        "current_team": {
+            "name": "4 shurima",
+            "id": "21217",
+            "joined": null
+        },
+        "past_teams": [
+            {
+                "name": "Circus Cyber",
+                "id": "20047",
+                "date": null
+            },
+            {
+                "name": "Team Flash",
+                "id": "14277",
+                "date": "November 2023"
+            },
+            {
+                "name": "Tài Năng Trẻ",
+                "id": "13940",
+                "date": null
+            },
+            {
+                "name": "The Mad Men",
+                "id": "8587",
+                "date": null
+            },
+            {
+                "name": "CERBERUS Esports",
+                "id": "4325",
+                "date": "July 2022 – August 2022"
+            },
+            {
+                "name": "Brave Wolves",
+                "id": "7057",
+                "date": "July 2022"
+            },
+            {
+                "name": "Team Capalot",
+                "id": "5954",
+                "date": null
+            },
+            {
+                "name": "Fancy United Esports",
+                "id": "4330",
+                "date": null
+            }
+        ]
+    },
+    "8225": {
+        "id": "8225",
+        "ign": "f1cio",
+        "real_name": "Hoàng Ngọc Sơn",
+        "country": "VIETNAM",
+        "current_team": {
+            "name": "Fancy United Esports",
+            "id": "4330",
+            "joined": null
+        },
+        "past_teams": [
+            {
+                "name": "ZY Gaming",
+                "id": "15872",
+                "date": null
+            },
+            {
+                "name": "VICTORY",
+                "id": "8470",
+                "date": null
+            },
+            {
+                "name": "Fancy United Esports",
+                "id": "4330",
+                "date": "March 2022 – July 2024"
+            },
+            {
+                "name": "Take It Easy",
+                "id": "6970",
+                "date": null
+            },
+            {
+                "name": "Team Capalot",
+                "id": "5954",
+                "date": null
+            },
+            {
+                "name": "Damianos Esport",
+                "id": "4498",
+                "date": null
+            },
+            {
+                "name": "No Hope Gaming",
+                "id": "4327",
+                "date": "May 2021"
+            },
+            {
+                "name": "Team SHIFT",
+                "id": "2110",
+                "date": null
+            }
+        ]
+    },
+    "58847": {
+        "id": "58847",
+        "ign": "Luzi",
+        "real_name": "",
+        "country": "VIETNAM",
+        "current_team": {
+            "name": "4 shurima",
+            "id": "21217",
+            "joined": null
+        },
+        "past_teams": [
+            {
+                "name": "Circus Cyber",
+                "id": "20047",
+                "date": null
+            }
+        ]
+    },
+    "37639": {
+        "id": "37639",
+        "ign": "Hyuse",
+        "real_name": "Thái Huỳnh Hữu Huy",
+        "country": "VIETNAM",
+        "current_team": {
+            "name": "4 shurima",
+            "id": "21217",
+            "joined": null
+        },
+        "past_teams": [
+            {
+                "name": "Circus Cyber",
+                "id": "20047",
+                "date": null
+            },
+            {
+                "name": "Fancy United Esports",
+                "id": "4330",
+                "date": "November 2024"
+            },
+            {
+                "name": "LAZY",
+                "id": "11275",
+                "date": null
+            },
+            {
+                "name": "Cyberking Esports",
+                "id": "15017",
+                "date": "July 2024"
+            },
+            {
+                "name": "TwoKay",
+                "id": "11238",
+                "date": null
+            },
+            {
+                "name": "Southside Ranger",
+                "id": "12444",
+                "date": null
+            }
+        ]
+    },
+    "59398": {
+        "id": "59398",
+        "ign": "Her",
+        "real_name": "Nguyen Duy Tan",
+        "country": "VIETNAM",
+        "current_team": {
+            "name": "4 shurima",
+            "id": "21217",
+            "joined": null
+        },
+        "past_teams": [
+            {
+                "name": "Crocodile Tears",
+                "id": "14007",
+                "date": null
+            }
+        ]
+    },
+    "48574": {
+        "id": "48574",
+        "ign": "Nia",
+        "real_name": "",
+        "country": "VIETNAM",
+        "current_team": {
+            "name": "Fancy United Esports",
+            "id": "4330",
+            "joined": null
+        },
+        "past_teams": [
+            {
+                "name": "Fancy United Esports",
+                "id": "4330",
+                "date": null
+            }
+        ]
+    },
+    "1437": {
+        "id": "1437",
+        "ign": "YESicaN",
+        "real_name": "Đinh Đình Đạt",
+        "country": "VIETNAM",
+        "current_team": {
+            "name": "Fancy United Esports",
+            "id": "4330",
+            "joined": null
+        },
+        "past_teams": [
+            {
+                "name": "Fancy United Esports",
+                "id": "4330",
+                "date": null
+            },
+            {
+                "name": "Fancy United Esports",
+                "id": "4330",
+                "date": "January 2022 – July 2024"
+            },
+            {
+                "name": "DivisionX Gaming",
+                "id": "388",
+                "date": "August 2020 – January 2022"
+            }
+        ]
+    },
+    "48575": {
+        "id": "48575",
+        "ign": "bucute",
+        "real_name": "",
+        "country": "VIETNAM",
+        "current_team": {
+            "name": "Fancy United Esports",
+            "id": "4330",
+            "joined": null
+        },
+        "past_teams": [
+            {
+                "name": "Team Flash",
+                "id": "14277",
+                "date": null
+            }
+        ]
+    },
+    "25743": {
+        "id": "25743",
+        "ign": "raafa",
+        "real_name": "Rafael Lima",
+        "country": "BRAZIL",
+        "current_team": {
+            "name": "Team Solid",
+            "id": "19265",
+            "joined": null
+        },
+        "past_teams": [
+            {
+                "name": "DIRETORIA",
+                "id": "8952",
+                "date": null
+            },
+            {
+                "name": "FURIA",
+                "id": "2406",
+                "date": "December 2024 – May 2025"
+            },
+            {
+                "name": "Hero Base",
+                "id": "15117",
+                "date": "February 2024"
+            },
+            {
+                "name": "UNIÃO",
+                "id": "15071",
+                "date": "December 2023 – February 2024"
+            },
+            {
+                "name": "The Union",
+                "id": "9447",
+                "date": "November 2022 – October 2023"
+            },
+            {
+                "name": "Liberty",
+                "id": "581",
+                "date": "April 2022 – November 2022"
+            },
+            {
+                "name": "Renegados",
+                "id": "7349",
+                "date": "April 2022"
+            }
+        ]
+    },
+    "8706": {
+        "id": "8706",
+        "ign": "havoc",
+        "real_name": "Ilan Eloy",
+        "country": "BRAZIL",
+        "current_team": {
+            "name": "Team Solid",
+            "id": "19265",
+            "joined": null
+        },
+        "past_teams": [
+            {
+                "name": "FURIA",
+                "id": "2406",
+                "date": "October 2023 – May 2025"
+            },
+            {
+                "name": "The Union",
+                "id": "9447",
+                "date": "July 2022 – October 2023"
+            },
+            {
+                "name": "DIRETORIA",
+                "id": "8952",
+                "date": null
+            },
+            {
+                "name": "Laboratorio do Leozin",
+                "id": "8528",
+                "date": null
+            },
+            {
+                "name": "Renegados",
+                "id": "7349",
+                "date": null
+            },
+            {
+                "name": "aim hor$e",
+                "id": "2267",
+                "date": "January 2021"
+            }
+        ]
+    },
+    "55192": {
+        "id": "55192",
+        "ign": "chadu",
+        "real_name": "",
+        "country": "BRAZIL",
+        "current_team": {
+            "name": "Paysandu Esports",
+            "id": "16853",
+            "joined": "January 2026"
+        },
+        "past_teams": [
+            {
+                "name": "gibossla",
+                "id": "19658",
+                "date": null
+            },
+            {
+                "name": "UNIK",
+                "id": "19255",
+                "date": null
+            }
+        ]
+    },
+    "37095": {
+        "id": "37095",
+        "ign": "kwn",
+        "real_name": "",
+        "country": "BRAZIL",
+        "current_team": {
+            "name": "Paysandu Esports",
+            "id": "16853",
+            "joined": "January 2026"
+        },
+        "past_teams": [
+            {
+                "name": "VCT Descension",
+                "id": "20264",
+                "date": null
+            },
+            {
+                "name": "REDEMPTION",
+                "id": "13686",
+                "date": null
+            },
+            {
+                "name": "Underhounds",
+                "id": "15479",
+                "date": null
+            },
+            {
+                "name": "Stellae Academy",
+                "id": "12227",
+                "date": "February 2025"
+            },
+            {
+                "name": "vc sabe eles mrm",
+                "id": "12224",
+                "date": null
+            },
+            {
+                "name": "sei la quem e amigos",
+                "id": "11876",
+                "date": null
+            },
+            {
+                "name": "VIKING GAMING",
+                "id": "10938",
+                "date": null
+            },
+            {
+                "name": "Black Panthers",
+                "id": "6223",
+                "date": null
+            }
+        ]
+    },
+    "44309": {
+        "id": "44309",
+        "ign": "fish",
+        "real_name": "",
+        "country": "BRAZIL",
+        "current_team": {
+            "name": "Paysandu Esports",
+            "id": "16853",
+            "joined": null
+        },
+        "past_teams": [
+            {
+                "name": "Uganda 01",
+                "id": "15933",
+                "date": null
+            },
+            {
+                "name": "SSJ de Óculos",
+                "id": "16069",
+                "date": null
+            },
+            {
+                "name": "lanchonete do gerso",
+                "id": "15298",
+                "date": null
+            }
+        ]
+    },
+    "40858": {
+        "id": "40858",
+        "ign": "raised",
+        "real_name": "",
+        "country": "BRAZIL",
+        "current_team": {
+            "name": "Paysandu Esports",
+            "id": "16853",
+            "joined": null
+        },
+        "past_teams": [
+            {
+                "name": "REDEMPTION",
+                "id": "13686",
+                "date": null
+            },
+            {
+                "name": "KAMI TENCHI",
+                "id": "14204",
+                "date": null
+            }
+        ]
+    },
+    "1581": {
+        "id": "1581",
+        "ign": "GuhRVN",
+        "real_name": "Gustavo Ferreira",
+        "country": "BRAZIL",
+        "current_team": {
+            "name": "Team Solid",
+            "id": "19265",
+            "joined": "January 2026"
+        },
+        "past_teams": [
+            {
+                "name": "Los Grandes",
+                "id": "7332",
+                "date": "February 2025"
+            },
+            {
+                "name": "PR0NETS",
+                "id": "16605",
+                "date": null
+            },
+            {
+                "name": "Hero Base",
+                "id": "15117",
+                "date": "February 2024"
+            },
+            {
+                "name": "UNIÃO",
+                "id": "15071",
+                "date": "December 2023 – February 2024"
+            },
+            {
+                "name": "The Union",
+                "id": "9447",
+                "date": "July 2022 – October 2023"
+            },
+            {
+                "name": "OIP",
+                "id": "8335",
+                "date": null
+            },
+            {
+                "name": "TRY eSports",
+                "id": "7344",
+                "date": "January 2022"
+            },
+            {
+                "name": "Rise Gaming",
+                "id": "2343",
+                "date": null
+            },
+            {
+                "name": "DETONA Gaming",
+                "id": "636",
+                "date": null
+            },
+            {
+                "name": "Anuncie Aqui",
+                "id": "418",
+                "date": null
+            }
+        ]
+    },
+    "2567": {
+        "id": "2567",
+        "ign": "liazzi",
+        "real_name": "Felipe Galiazzi",
+        "country": "BRAZIL",
+        "current_team": {
+            "name": "Team Solid",
+            "id": "19265",
+            "joined": "January 2026"
+        },
+        "past_teams": [
+            {
+                "name": "Corinthians Esports",
+                "id": "17127",
+                "date": "January 2025"
+            },
+            {
+                "name": "MIBR",
+                "id": "7386",
+                "date": "June 2024 – November 2024"
+            },
+            {
+                "name": "THE 7",
+                "id": "15745",
+                "date": "January 2025"
+            },
+            {
+                "name": "OLIMPO",
+                "id": "14470",
+                "date": "April 2024 – May 2024"
+            },
+            {
+                "name": "FURIA",
+                "id": "2406",
+                "date": "October 2023 – March 2024"
+            },
+            {
+                "name": "Keyd Stars",
+                "id": "4894",
+                "date": "December 2022"
+            },
+            {
+                "name": "AQA GANG 777",
+                "id": "4627",
+                "date": null
+            },
+            {
+                "name": "Liberty",
+                "id": "581",
+                "date": "January 2021 – November 2022"
+            },
+            {
+                "name": "exuLt.gg",
+                "id": "416",
+                "date": "August 2020 – September 2020"
+            }
+        ]
+    },
+    "48981": {
+        "id": "48981",
+        "ign": "nevoy",
+        "real_name": "",
+        "country": "BRAZIL",
+        "current_team": {
+            "name": "Team Solid",
+            "id": "19265",
+            "joined": "January 2026"
+        },
+        "past_teams": [
+            {
+                "name": "MIBR Academy",
+                "id": "16606",
+                "date": null
+            },
+            {
+                "name": "Paysandu Esports",
+                "id": "16853",
+                "date": null
+            }
+        ]
+    },
+    "50768": {
+        "id": "50768",
+        "ign": "spm",
+        "real_name": "",
+        "country": "BRAZIL",
+        "current_team": {
+            "name": "Paysandu Esports",
+            "id": "16853",
+            "joined": null
+        },
+        "past_teams": []
+    },
+    "25745": {
+        "id": "25745",
+        "ign": "kumi",
+        "real_name": "",
+        "country": "UNITED STATES",
+        "current_team": {
+            "name": "QoR",
+            "id": "6985",
+            "joined": "January 2026"
+        },
+        "past_teams": [
+            {
+                "name": "Nightblood Gaming",
+                "id": "5601",
+                "date": "July 2025 – October 2025"
+            },
+            {
+                "name": "Relaxed Reptilians",
+                "id": "18585",
+                "date": "May 2025"
+            },
+            {
+                "name": "Funhavers",
+                "id": "16121",
+                "date": "April 2025 – May 2025"
+            },
+            {
+                "name": "Berzerkers",
+                "id": "7711",
+                "date": "March 2025 – April 2025"
+            },
+            {
+                "name": "YDZ x Berzerkers",
+                "id": "16380",
+                "date": "March 2025"
+            },
+            {
+                "name": "ENVEE Esports",
+                "id": "16229",
+                "date": null
+            },
+            {
+                "name": "RyZ Knights",
+                "id": "10971",
+                "date": "June 2024"
+            },
+            {
+                "name": "Friends Over Everything",
+                "id": "15855",
+                "date": "June 2024"
+            },
+            {
+                "name": "Zero MarksMen Black",
+                "id": "5832",
+                "date": "May 2024"
+            },
+            {
+                "name": "the basement",
+                "id": "14661",
+                "date": null
+            },
+            {
+                "name": "Nearest Airport",
+                "id": "8264",
+                "date": "August 2023 – September 2024"
+            },
+            {
+                "name": "Royal Pekingese",
+                "id": "10972",
+                "date": null
+            },
+            {
+                "name": "HypeHorizen",
+                "id": "8313",
+                "date": null
+            }
+        ]
+    },
+    "7458": {
+        "id": "7458",
+        "ign": "moose",
+        "real_name": "Kaleb Jayne",
+        "country": "CANADA",
+        "current_team": {
+            "name": "QoR",
+            "id": "6985",
+            "joined": "January 2026"
+        },
+        "past_teams": [
+            {
+                "name": "BOX OF ROCKETZ",
+                "id": "19590",
+                "date": "July 2025"
+            },
+            {
+                "name": "Trust In Plug",
+                "id": "16898",
+                "date": "April 2025 – April 2025"
+            },
+            {
+                "name": "Landor",
+                "id": "17056",
+                "date": "February 2025"
+            },
+            {
+                "name": "Cloud9",
+                "id": "188",
+                "date": "March 2024 – January 2025"
+            },
+            {
+                "name": "YFP",
+                "id": "5038",
+                "date": "January 2024 – March 2024"
+            },
+            {
+                "name": "Turtle Troop",
+                "id": "11836",
+                "date": "October 2023 – December 2023"
+            },
+            {
+                "name": "Shopify Rebellion Black",
+                "id": "9353",
+                "date": "June 2022 – September 2023"
+            },
+            {
+                "name": "Luminosity",
+                "id": "642",
+                "date": "February 2021 – June 2022"
+            },
+            {
+                "name": "Orgles5",
+                "id": "976",
+                "date": "November 2020 – November 2020"
+            }
+        ]
+    },
+    "39021": {
+        "id": "39021",
+        "ign": "Notexxd",
+        "real_name": "Jaden Anderson",
+        "country": "BERMUDA",
+        "current_team": {
+            "name": "QoR",
+            "id": "6985",
+            "joined": "January 2026"
+        },
+        "past_teams": [
+            {
+                "name": "Nightblood Gaming",
+                "id": "5601",
+                "date": "July 2025 – October 2025"
+            },
+            {
+                "name": "MBU Spartans",
+                "id": "13505",
+                "date": null
+            },
+            {
+                "name": "Berzerkers",
+                "id": "7711",
+                "date": "March 2025"
+            },
+            {
+                "name": "YDZ x Berzerkers",
+                "id": "16380",
+                "date": "March 2025"
+            },
+            {
+                "name": "Lemonade Stand",
+                "id": "13277",
+                "date": null
+            },
+            {
+                "name": "Six Figures",
+                "id": "14364",
+                "date": null
+            },
+            {
+                "name": "Nearest Airport",
+                "id": "8264",
+                "date": "August 2023 – September 2024"
+            },
+            {
+                "name": "Cataclysm Gaming",
+                "id": "11200",
+                "date": null
+            }
+        ]
+    },
+    "24228": {
+        "id": "24228",
+        "ign": "Smoke",
+        "real_name": "",
+        "country": "UNITED STATES",
+        "current_team": {
+            "name": "QoR",
+            "id": "6985",
+            "joined": "January 2026"
+        },
+        "past_teams": [
+            {
+                "name": "Evictix",
+                "id": "19914",
+                "date": null
+            },
+            {
+                "name": "YFP",
+                "id": "5038",
+                "date": "March 2023 – May 2023"
+            },
+            {
+                "name": "MCT Esports",
+                "id": "9511",
+                "date": null
+            },
+            {
+                "name": "SWARM esports",
+                "id": "8617",
+                "date": null
+            },
+            {
+                "name": "OneShot Esports",
+                "id": "7837",
+                "date": null
+            }
+        ]
+    },
+    "3685": {
+        "id": "3685",
+        "ign": "flyuh",
+        "real_name": "Xavier Carlson",
+        "country": "UNITED STATES",
+        "current_team": {
+            "name": "QoR",
+            "id": "6985",
+            "joined": "January 2026"
+        },
+        "past_teams": [
+            {
+                "name": "KOI",
+                "id": "7035",
+                "date": "November 2024 – September 2025"
+            },
+            {
+                "name": "Moist x Shopify",
+                "id": "13188",
+                "date": "September 2023 – November 2024"
+            },
+            {
+                "name": "Moist Moguls",
+                "id": "12041",
+                "date": "February 2023 – September 2023"
+            },
+            {
+                "name": "BreakThru",
+                "id": "10713",
+                "date": "January 2023 – February 2023"
+            },
+            {
+                "name": "FaZe Clan",
+                "id": "337",
+                "date": "January 2022 – February 2023"
+            },
+            {
+                "name": "City Boys",
+                "id": "9477",
+                "date": "November 2022 – November 2022"
+            },
+            {
+                "name": "Teal Seam",
+                "id": "3944",
+                "date": "October 2021 – January 2022"
+            },
+            {
+                "name": "T1 Academy",
+                "id": "4075",
+                "date": "July 2021 – October 2021"
+            },
+            {
+                "name": "Teal Seam",
+                "id": "3944",
+                "date": "May 2021 – June 2021"
+            },
+            {
+                "name": "Akella",
+                "id": "3274",
+                "date": "March 2021 – April 2021"
+            },
+            {
+                "name": "Tenacity Pro",
+                "id": "951",
+                "date": null
+            }
+        ]
+    },
+    "8082": {
+        "id": "8082",
+        "ign": "zander",
+        "real_name": "Alexander Dituri",
+        "country": "CANADA",
+        "current_team": {
+            "name": "Shopify Rebellion Black",
+            "id": "9353",
+            "joined": "January 2026"
+        },
+        "past_teams": [
+            {
+                "name": "100 Thieves",
+                "id": "120",
+                "date": "October 2024 – November 2025"
+            },
+            {
+                "name": "M80",
+                "id": "11001",
+                "date": "December 2022 – September 2024"
+            },
+            {
+                "name": "Version1",
+                "id": "2815",
+                "date": "December 2021 – November 2022"
+            },
+            {
+                "name": "SoaR",
+                "id": "4345",
+                "date": "April 2021 – December 2021"
+            },
+            {
+                "name": "PUGSTARS",
+                "id": "2938",
+                "date": "March 2021 – April 2021"
+            }
+        ]
+    },
+    "29076": {
+        "id": "29076",
+        "ign": "satellite",
+        "real_name": "",
+        "country": "CANADA",
+        "current_team": {
+            "name": "Shopify Rebellion Black",
+            "id": "9353",
+            "joined": "January 2026"
+        },
+        "past_teams": [
+            {
+                "name": "Cubert Academy",
+                "id": "16899",
+                "date": "July 2025 – January 2026"
+            },
+            {
+                "name": "Van Lyn",
+                "id": "11455",
+                "date": "March 2024"
+            },
+            {
+                "name": "Ambrosia",
+                "id": "11963",
+                "date": null
+            },
+            {
+                "name": "Aspyre x Swarm",
+                "id": "12836",
+                "date": "October 2022"
+            },
+            {
+                "name": "TetraEsportsGG",
+                "id": "9697",
+                "date": "October 2022"
+            }
+        ]
+    },
+    "29547": {
+        "id": "29547",
+        "ign": "ion",
+        "real_name": "Ayan Rastogi",
+        "country": "INDIA",
+        "current_team": {
+            "name": "Shopify Rebellion Black",
+            "id": "9353",
+            "joined": "loan"
+        },
+        "past_teams": [
+            {
+                "name": "RANKERS",
+                "id": "16806",
+                "date": "January 2025 – March 2025"
+            },
+            {
+                "name": "OREGON HACK",
+                "id": "15860",
+                "date": null
+            },
+            {
+                "name": "Torch",
+                "id": "12743",
+                "date": "May 2023"
+            }
+        ]
+    },
+    "4927": {
+        "id": "4927",
+        "ign": "NaturE",
+        "real_name": "Nicholas Garrison",
+        "country": "UNITED STATES",
+        "current_team": {
+            "name": "Shopify Rebellion Black",
+            "id": "9353",
+            "joined": "January 2026"
+        },
+        "past_teams": [
+            {
+                "name": "Evil Geniuses",
+                "id": "5248",
+                "date": "January 2024 – December 2025"
+            },
+            {
+                "name": "100 Thieves",
+                "id": "120",
+                "date": "stand-in"
+            },
+            {
+                "name": "BackOutsideBoys",
+                "id": "13679",
+                "date": "January 2024"
+            },
+            {
+                "name": "TSM",
+                "id": "106",
+                "date": "December 2022 – July 2023"
+            },
+            {
+                "name": "Gen.G",
+                "id": "17",
+                "date": "May 2021 – July 2022"
+            },
+            {
+                "name": "Immortals",
+                "id": "103",
+                "date": "January 2021 – April 2021"
+            },
+            {
+                "name": "SOR",
+                "id": "1656",
+                "date": "December 2020"
+            },
+            {
+                "name": "Dog Team Needs Club Org",
+                "id": "1247",
+                "date": "October 2020"
+            }
+        ]
+    },
+    "30556": {
+        "id": "30556",
+        "ign": "exa",
+        "real_name": "Kim Lee-hwan (김이환)",
+        "country": "SOUTH KOREA",
+        "current_team": {
+            "name": "Shopify Rebellion Black",
+            "id": "9353",
+            "joined": "November 2025"
+        },
+        "past_teams": [
+            {
+                "name": "T1 Academy",
+                "id": "15578",
+                "date": "September 2024 – November 2025"
+            },
+            {
+                "name": "SaD Purple",
+                "id": "13847",
+                "date": null
+            }
+        ]
+    },
+    "1671": {
+        "id": "1671",
+        "ign": "kon4n",
+        "real_name": "Vitor Hugo",
+        "country": "BRAZIL",
+        "current_team": {
+            "name": "TBK Esports",
+            "id": "6946",
+            "joined": "January 2026"
+        },
+        "past_teams": [
+            {
+                "name": "Team Solid",
+                "id": "19265",
+                "date": null
+            },
+            {
+                "name": "DIRETORIA",
+                "id": "8952",
+                "date": null
+            },
+            {
+                "name": "Vila do Zana",
+                "id": "17482",
+                "date": null
+            },
+            {
+                "name": "FURIA",
+                "id": "2406",
+                "date": "January 2023 – June 2024"
+            },
+            {
+                "name": "TBK Esports",
+                "id": "6946",
+                "date": "November 2022"
+            },
+            {
+                "name": "NOORG2.0",
+                "id": "5316",
+                "date": "December 2021"
+            },
+            {
+                "name": "NOORG",
+                "id": "4800",
+                "date": null
+            },
+            {
+                "name": "paiN Gaming",
+                "id": "203",
+                "date": "October 2020 – May 2021"
+            },
+            {
+                "name": "NOORG2.0",
+                "id": "891",
+                "date": "October 2020"
+            }
+        ]
+    },
+    "36106": {
+        "id": "36106",
+        "ign": "skz",
+        "real_name": "Jean Lucas",
+        "country": "BRAZIL",
+        "current_team": {
+            "name": "RED Canids",
+            "id": "1124",
+            "joined": "January 2026"
+        },
+        "past_teams": [
+            {
+                "name": "Next",
+                "id": "20741",
+                "date": "January 2026"
+            },
+            {
+                "name": "SET 2K25",
+                "id": "20222",
+                "date": null
+            },
+            {
+                "name": "FURIA Academy",
+                "id": "17094",
+                "date": "February 2025 – August 2025"
+            },
+            {
+                "name": "Orquestra Do Maestro",
+                "id": "15074",
+                "date": null
+            },
+            {
+                "name": "A nova onda do Imperador",
+                "id": "14547",
+                "date": null
+            },
+            {
+                "name": "A nova onda do Imperador",
+                "id": "14547",
+                "date": null
+            },
+            {
+                "name": "Legacy",
+                "id": "15021",
+                "date": "February 2024"
+            },
+            {
+                "name": "XIT",
+                "id": "11997",
+                "date": "February 2024"
+            },
+            {
+                "name": "xit",
+                "id": "11879",
+                "date": null
+            }
+        ]
+    },
+    "783": {
+        "id": "783",
+        "ign": "murizzz",
+        "real_name": "Murillo Tuchtenhagen",
+        "country": "BRAZIL",
+        "current_team": {
+            "name": "TBK Esports",
+            "id": "6946",
+            "joined": "January 2026"
+        },
+        "past_teams": [
+            {
+                "name": "ShindeN",
+                "id": "16971",
+                "date": "December 2024 – January 2026"
+            },
+            {
+                "name": "RETA Esports",
+                "id": "11002",
+                "date": "October 2024 – November 2024"
+            },
+            {
+                "name": "RETA Esports",
+                "id": "11002",
+                "date": "November 2023 – October 2024"
+            },
+            {
+                "name": "Os maridinhos",
+                "id": "13893",
+                "date": null
+            },
+            {
+                "name": "MIBR",
+                "id": "7386",
+                "date": "November 2022 – September 2023"
+            },
+            {
+                "name": "Keyd Stars",
+                "id": "4894",
+                "date": "June 2021 – October 2022"
+            },
+            {
+                "name": "Desempregados",
+                "id": "4765",
+                "date": "June 2021"
+            },
+            {
+                "name": "NOORG2.0",
+                "id": "891",
+                "date": "October 2020"
+            },
+            {
+                "name": "Cage Triggered",
+                "id": "246",
+                "date": null
+            },
+            {
+                "name": "paiN Gaming",
+                "id": "203",
+                "date": "June 2020 – May 2021"
+            }
+        ]
+    },
+    "32717": {
+        "id": "32717",
+        "ign": "maestr0",
+        "real_name": "",
+        "country": "BRAZIL",
+        "current_team": {
+            "name": "TBK Esports",
+            "id": "6946",
+            "joined": "January 2026"
+        },
+        "past_teams": [
+            {
+                "name": "RED Canids",
+                "id": "1124",
+                "date": "January 2025 – October 2025"
+            },
+            {
+                "name": "Orquestra Do Maestro",
+                "id": "15074",
+                "date": "February 2024"
+            },
+            {
+                "name": "Orquestra do Maestro",
+                "id": "14655",
+                "date": null
+            },
+            {
+                "name": "New GeneratioN",
+                "id": "14213",
+                "date": null
+            },
+            {
+                "name": "FRAFLU",
+                "id": "13691",
+                "date": null
+            },
+            {
+                "name": "Arranca Dream v3",
+                "id": "12659",
+                "date": null
+            },
+            {
+                "name": "temp",
+                "id": "12234",
+                "date": null
+            },
+            {
+                "name": "fakezin randomicos",
+                "id": "10757",
+                "date": null
+            }
+        ]
+    },
+    "8892": {
+        "id": "8892",
+        "ign": "snw",
+        "real_name": "Miguel Marcondes",
+        "country": "BRAZIL",
+        "current_team": {
+            "name": "TBK Esports",
+            "id": "6946",
+            "joined": "January 2026"
+        },
+        "past_teams": [
+            {
+                "name": "ShindeN",
+                "id": "16971",
+                "date": "December 2024 – January 2026"
+            },
+            {
+                "name": "RETA Esports",
+                "id": "11002",
+                "date": "November 2023 – September 2024"
+            },
+            {
+                "name": "Libertados",
+                "id": "13919",
+                "date": null
+            },
+            {
+                "name": "Smoke Troop",
+                "id": "11890",
+                "date": null
+            },
+            {
+                "name": "Tuzzy E-Sports",
+                "id": "8267",
+                "date": null
+            },
+            {
+                "name": "ODDIK",
+                "id": "4958",
+                "date": "February 2022 – April 2022"
+            },
+            {
+                "name": "Treinão do Fra",
+                "id": "6884",
+                "date": null
+            },
+            {
+                "name": "ODDIK",
+                "id": "4958",
+                "date": "June 2021"
+            },
+            {
+                "name": "Exodia Club",
+                "id": "4044",
+                "date": "June 2021"
+            },
+            {
+                "name": "Agentes Livres",
+                "id": "2430",
+                "date": null
+            }
+        ]
+    },
+    "5351": {
+        "id": "5351",
+        "ign": "RgLMeister",
+        "real_name": "Matheus Rodigoli",
+        "country": "BRAZIL",
+        "current_team": {
+            "name": "RED Canids",
+            "id": "1124",
+            "joined": "January 2026"
+        },
+        "past_teams": [
+            {
+                "name": "Next",
+                "id": "20741",
+                "date": "January 2026"
+            },
+            {
+                "name": "RED Canids",
+                "id": "1124",
+                "date": "January 2025 – October 2025"
+            },
+            {
+                "name": "Galorys",
+                "id": "10755",
+                "date": "November 2024 – December 2024"
+            },
+            {
+                "name": "MIBR",
+                "id": "7386",
+                "date": "November 2022 – May 2024"
+            },
+            {
+                "name": "Keyd Stars",
+                "id": "4894",
+                "date": "May 2022 – October 2022"
+            },
+            {
+                "name": "INGAMING Esports",
+                "id": "1916",
+                "date": "January 2022 – April 2022"
+            },
+            {
+                "name": "Predestinados",
+                "id": "4955",
+                "date": null
+            },
+            {
+                "name": "KING OF SELVA",
+                "id": "4908",
+                "date": null
+            },
+            {
+                "name": "eRa Eternity",
+                "id": "2599",
+                "date": null
+            },
+            {
+                "name": "eRa Eternity",
+                "id": "1159",
+                "date": null
+            },
+            {
+                "name": "FazTeuHype",
+                "id": "522",
+                "date": null
+            }
+        ]
+    },
+    "48964": {
+        "id": "48964",
+        "ign": "lowz",
+        "real_name": "",
+        "country": "BRAZIL",
+        "current_team": {
+            "name": "RED Canids",
+            "id": "1124",
+            "joined": "January 2026"
+        },
+        "past_teams": [
+            {
+                "name": "AURA",
+                "id": "16726",
+                "date": "January 2026 – January 2026"
+            },
+            {
+                "name": "covil do nilao",
+                "id": "20193",
+                "date": null
+            },
+            {
+                "name": "Grêmio Esports",
+                "id": "16154",
+                "date": null
+            },
+            {
+                "name": "Grêmio Esports",
+                "id": "16154",
+                "date": "stand-in"
+            }
+        ]
+    },
+    "6238": {
+        "id": "6238",
+        "ign": "Urango",
+        "real_name": "Victor Rodrigues",
+        "country": "BRAZIL",
+        "current_team": {
+            "name": "RED Canids",
+            "id": "1124",
+            "joined": "January 2026"
+        },
+        "past_teams": [
+            {
+                "name": "Next",
+                "id": "20741",
+                "date": "January 2026"
+            },
+            {
+                "name": "FURIA",
+                "id": "2406",
+                "date": "May 2025 – November 2025"
+            },
+            {
+                "name": "RED Canids",
+                "id": "1124",
+                "date": "January 2025 – May 2025"
+            },
+            {
+                "name": "Galorys",
+                "id": "10755",
+                "date": "November 2023 – December 2024"
+            },
+            {
+                "name": "MIXX",
+                "id": "11882",
+                "date": null
+            },
+            {
+                "name": "Scroll Lock",
+                "id": "10952",
+                "date": null
+            },
+            {
+                "name": "SEMORGAINDA 3.0",
+                "id": "10765",
+                "date": null
+            },
+            {
+                "name": "RD E-SPORTS",
+                "id": "7355",
+                "date": null
+            },
+            {
+                "name": "Botafogo eSports",
+                "id": "5322",
+                "date": "March 2022"
+            },
+            {
+                "name": "SEMORGAINDA",
+                "id": "3664",
+                "date": "April 2021"
+            },
+            {
+                "name": "Predestinados",
+                "id": "4955",
+                "date": null
+            },
+            {
+                "name": "KING OF SELVA",
+                "id": "4908",
+                "date": null
+            },
+            {
+                "name": "Folouers Esports",
+                "id": "4394",
+                "date": null
+            },
+            {
+                "name": "SEMORGAINDA",
+                "id": "3664",
+                "date": "April 2021"
+            },
+            {
+                "name": "EU +4",
+                "id": "1611",
+                "date": null
+            }
+        ]
+    },
+    "2585": {
+        "id": "2585",
+        "ign": "tinchoff",
+        "real_name": "Martin Garcia",
+        "country": "ARGENTINA",
+        "current_team": {
+            "name": "RED Canids",
+            "id": "1124",
+            "joined": "January 2026"
+        },
+        "past_teams": [
+            {
+                "name": "Next",
+                "id": "20741",
+                "date": "January 2026"
+            },
+            {
+                "name": "Zen eSports",
+                "id": "12688",
+                "date": "June 2025"
+            },
+            {
+                "name": "Grêmio Esports",
+                "id": "16154",
+                "date": "February 2025 – May 2025"
+            },
+            {
+                "name": "All Knights",
+                "id": "364",
+                "date": "December 2022"
+            },
+            {
+                "name": "Pharaoh",
+                "id": "7697",
+                "date": "March 2022"
+            },
+            {
+                "name": "Sem Org",
+                "id": "7699",
+                "date": null
+            },
+            {
+                "name": "Malvinas Gaming",
+                "id": "2596",
+                "date": null
+            },
+            {
+                "name": "Fake",
+                "id": "1430",
+                "date": null
+            },
+            {
+                "name": "Aion Esports",
+                "id": "679",
+                "date": null
+            }
+        ]
+    },
+    "3169": {
+        "id": "3169",
+        "ign": "Zap",
+        "real_name": "Brenno Roberto",
+        "country": "BRAZIL",
+        "current_team": {
+            "name": "TBK Esports",
+            "id": "6946",
+            "joined": "January 2026"
+        },
+        "past_teams": [
+            {
+                "name": "SET 2K25",
+                "id": "20222",
+                "date": null
+            },
+            {
+                "name": "2Game Esports",
+                "id": "15072",
+                "date": "January 2024 – March 2025"
+            },
+            {
+                "name": "ABOMINEVE",
+                "id": "13714",
+                "date": null
+            },
+            {
+                "name": "NEV",
+                "id": "13189",
+                "date": null
+            },
+            {
+                "name": "MERCEDES",
+                "id": "11993",
+                "date": null
+            },
+            {
+                "name": "Tuzzy E-Sports",
+                "id": "8267",
+                "date": null
+            },
+            {
+                "name": "TRY eSports",
+                "id": "7344",
+                "date": "January 2022"
+            },
+            {
+                "name": "HIGHPOWER",
+                "id": "695",
+                "date": "September 2021"
+            },
+            {
+                "name": "RevoadaVLR",
+                "id": "4904",
+                "date": null
+            },
+            {
+                "name": "Keyd Stars",
+                "id": "4894",
+                "date": "January 2021 – May 2021"
+            },
+            {
+                "name": "Team oNe",
+                "id": "425",
+                "date": "October 2020 – December 2020"
+            },
+            {
+                "name": "exuLt.gg",
+                "id": "416",
+                "date": "September 2020"
+            }
+        ]
+    },
+    "8896": {
+        "id": "8896",
+        "ign": "Loweed",
+        "real_name": "Leonardo Henrique",
+        "country": "BRAZIL",
+        "current_team": {
+            "name": "F4TALITY",
+            "id": "16068",
+            "joined": null
+        },
+        "past_teams": [
+            {
+                "name": "TotalePRO",
+                "id": "8532",
+                "date": null
+            },
+            {
+                "name": "Agropesca Jacare",
+                "id": "7655",
+                "date": null
+            },
+            {
+                "name": "Atlanta Esports",
+                "id": "15584",
+                "date": null
+            },
+            {
+                "name": "O TREM",
+                "id": "10737",
+                "date": null
+            },
+            {
+                "name": "Renegados",
+                "id": "7349",
+                "date": null
+            },
+            {
+                "name": "ALGUMA COISA SO",
+                "id": "10756",
+                "date": null
+            },
+            {
+                "name": "Esquema Único",
+                "id": "2435",
+                "date": null
+            }
+        ]
+    },
+    "20251": {
+        "id": "20251",
+        "ign": "vit9ine",
+        "real_name": "Vitor Hugo",
+        "country": "BRAZIL",
+        "current_team": {
+            "name": "F4TALITY",
+            "id": "16068",
+            "joined": null
+        },
+        "past_teams": [
+            {
+                "name": "TBK Esports",
+                "id": "6946",
+                "date": null
+            },
+            {
+                "name": "SAGAZ",
+                "id": "13683",
+                "date": null
+            },
+            {
+                "name": "66group",
+                "id": "16194",
+                "date": null
+            },
+            {
+                "name": "A nova onda do Imperador",
+                "id": "14547",
+                "date": null
+            },
+            {
+                "name": "os piticos",
+                "id": "14557",
+                "date": null
+            },
+            {
+                "name": "tokyo drift",
+                "id": "14092",
+                "date": null
+            },
+            {
+                "name": "Authority Fate",
+                "id": "13910",
+                "date": null
+            },
+            {
+                "name": "TotalePRO",
+                "id": "8532",
+                "date": null
+            },
+            {
+                "name": "FIAP",
+                "id": "6410",
+                "date": null
+            }
+        ]
+    },
+    "22914": {
+        "id": "22914",
+        "ign": "HiiiK",
+        "real_name": "",
+        "country": "BRAZIL",
+        "current_team": {
+            "name": "PEEK",
+            "id": "16071",
+            "joined": null
+        },
+        "past_teams": [
+            {
+                "name": "Remo Esports",
+                "id": "19213",
+                "date": null
+            },
+            {
+                "name": "SAGAZ",
+                "id": "13683",
+                "date": null
+            },
+            {
+                "name": "SSJ de Óculos",
+                "id": "16069",
+                "date": null
+            },
+            {
+                "name": "LRV Esports",
+                "id": "12875",
+                "date": null
+            },
+            {
+                "name": "Seleção do Portuga",
+                "id": "10940",
+                "date": null
+            },
+            {
+                "name": "OS GURI DA GERAL DO GREMIO",
+                "id": "7376",
+                "date": null
+            }
+        ]
+    },
+    "40859": {
+        "id": "40859",
+        "ign": "taka",
+        "real_name": "Pedro Taka",
+        "country": "JAPAN",
+        "current_team": {
+            "name": "PEEK",
+            "id": "16071",
+            "joined": null
+        },
+        "past_teams": [
+            {
+                "name": "Holy",
+                "id": "21122",
+                "date": "January 2026"
+            },
+            {
+                "name": "PEEK",
+                "id": "16071",
+                "date": null
+            },
+            {
+                "name": "66group",
+                "id": "16194",
+                "date": null
+            },
+            {
+                "name": "NIGERIA 96",
+                "id": "15451",
+                "date": null
+            },
+            {
+                "name": "OS CARA CEGO 2.0",
+                "id": "15296",
+                "date": null
+            },
+            {
+                "name": "OS CARA CEGO",
+                "id": "12644",
+                "date": null
+            },
+            {
+                "name": "SAGAZ",
+                "id": "13683",
+                "date": null
+            }
+        ]
+    },
+    "33121": {
+        "id": "33121",
+        "ign": "Stwz1",
+        "real_name": "",
+        "country": "BRAZIL",
+        "current_team": {
+            "name": "PEEK",
+            "id": "16071",
+            "joined": null
+        },
+        "past_teams": [
+            {
+                "name": "A nova onda do Imperador",
+                "id": "14547",
+                "date": null
+            },
+            {
+                "name": "EndGameBr",
+                "id": "12222",
+                "date": null
+            },
+            {
+                "name": "Singularidade",
+                "id": "10923",
+                "date": null
+            }
+        ]
+    },
+    "32725": {
+        "id": "32725",
+        "ign": "lilo",
+        "real_name": "",
+        "country": "ITALY",
+        "current_team": {
+            "name": "PEEK",
+            "id": "16071",
+            "joined": null
+        },
+        "past_teams": [
+            {
+                "name": "Valoriza",
+                "id": "13900",
+                "date": null
+            },
+            {
+                "name": "Oh My God",
+                "id": "10734",
+                "date": null
+            }
+        ]
+    },
+    "15916": {
+        "id": "15916",
+        "ign": "jotinha",
+        "real_name": "Jerónimo Quirno Costa",
+        "country": "ARGENTINA",
+        "current_team": {
+            "name": "F4TALITY",
+            "id": "16068",
+            "joined": "January 2026"
+        },
+        "past_teams": [
+            {
+                "name": "mix9",
+                "id": "15742",
+                "date": "January 2026"
+            },
+            {
+                "name": "MiradaNinja's party",
+                "id": "20200",
+                "date": null
+            },
+            {
+                "name": "Farenvehn",
+                "id": "18584",
+                "date": "May 2025 – August 2025"
+            },
+            {
+                "name": "Nottingham Miedo",
+                "id": "13821",
+                "date": "January 2025 – May 2025"
+            },
+            {
+                "name": "Zen eSports",
+                "id": "12688",
+                "date": "August 2024"
+            },
+            {
+                "name": "OXEN",
+                "id": "9427",
+                "date": null
+            },
+            {
+                "name": "SunXet Club",
+                "id": "8734",
+                "date": "March 2022"
+            },
+            {
+                "name": "Ronin Team",
+                "id": "4984",
+                "date": null
+            }
+        ]
+    },
+    "56935": {
+        "id": "56935",
+        "ign": "znajder",
+        "real_name": "Luigi Luca",
+        "country": "BRAZIL",
+        "current_team": {
+            "name": "F4TALITY",
+            "id": "16068",
+            "joined": "January 2026"
+        },
+        "past_teams": [
+            {
+                "name": "DELIRA",
+                "id": "9201",
+                "date": null
+            }
+        ]
+    },
+    "22912": {
+        "id": "22912",
+        "ign": "PKX",
+        "real_name": "",
+        "country": "BRAZIL",
+        "current_team": {
+            "name": "PEEK",
+            "id": "16071",
+            "joined": null
+        },
+        "past_teams": [
+            {
+                "name": "PEEK",
+                "id": "16071",
+                "date": null
+            },
+            {
+                "name": "LRV Esports",
+                "id": "12875",
+                "date": null
+            },
+            {
+                "name": "Seleção do Portuga",
+                "id": "10940",
+                "date": null
+            },
+            {
+                "name": "OS GURI DA GERAL DO GREMIO",
+                "id": "7376",
+                "date": null
+            }
+        ]
+    },
+    "5342": {
+        "id": "5342",
+        "ign": "duhT",
+        "real_name": "Eduardo Teixeira",
+        "country": "BRAZIL",
+        "current_team": {
+            "name": "F4TALITY",
+            "id": "16068",
+            "joined": "January 2026"
+        },
+        "past_teams": [
+            {
+                "name": "ELEVATE",
+                "id": "18622",
+                "date": "January 2026"
+            },
+            {
+                "name": "Remo Esports",
+                "id": "19213",
+                "date": null
+            },
+            {
+                "name": "TBK Esports",
+                "id": "6946",
+                "date": null
+            },
+            {
+                "name": "TotalePRO",
+                "id": "8532",
+                "date": null
+            },
+            {
+                "name": "Agropesca Jacare",
+                "id": "7655",
+                "date": null
+            },
+            {
+                "name": "Vex Dragons",
+                "id": "13703",
+                "date": null
+            },
+            {
+                "name": "Liberty",
+                "id": "581",
+                "date": "January 2023"
+            },
+            {
+                "name": "DELIRA",
+                "id": "9201",
+                "date": "January 2023"
+            },
+            {
+                "name": "doidera",
+                "id": "8269",
+                "date": null
+            },
+            {
+                "name": "Gamelanders Blue",
+                "id": "243",
+                "date": "February 2022 – April 2022"
+            },
+            {
+                "name": "não temos um plano",
+                "id": "7637",
+                "date": null
+            },
+            {
+                "name": "EU+4",
+                "id": "1426",
+                "date": null
+            },
+            {
+                "name": "Hyperx9",
+                "id": "1373",
+                "date": null
+            }
+        ]
+    },
+    "48572": {
+        "id": "48572",
+        "ign": "NemVtuber",
+        "real_name": "",
+        "country": "VIETNAM",
+        "current_team": {
+            "name": "God Chosen",
+            "id": "16927",
+            "joined": null
+        },
+        "past_teams": [
+            {
+                "name": "Good Cook",
+                "id": "16593",
+                "date": null
+            }
+        ]
+    },
+    "23041": {
+        "id": "23041",
+        "ign": "Louboutin",
+        "real_name": "Derek Nguyen",
+        "country": "VIETNAM",
+        "current_team": {
+            "name": "God Chosen",
+            "id": "16927",
+            "joined": null
+        },
+        "past_teams": [
+            {
+                "name": "LAZY",
+                "id": "11275",
+                "date": null
+            },
+            {
+                "name": "Unicorn Cyber Da Nang",
+                "id": "15806",
+                "date": "January 2025 – March 2025"
+            },
+            {
+                "name": "LAZY",
+                "id": "11275",
+                "date": null
+            },
+            {
+                "name": "Team Big BAAM",
+                "id": "5931",
+                "date": null
+            },
+            {
+                "name": "NCTDK",
+                "id": "15018",
+                "date": null
+            },
+            {
+                "name": "Syko",
+                "id": "12421",
+                "date": null
+            },
+            {
+                "name": "5King",
+                "id": "11252",
+                "date": null
+            },
+            {
+                "name": "VICTORY",
+                "id": "8470",
+                "date": null
+            },
+            {
+                "name": "Fear of God",
+                "id": "7911",
+                "date": null
+            },
+            {
+                "name": "CBD Prime",
+                "id": "7396",
+                "date": null
+            }
+        ]
+    },
+    "56057": {
+        "id": "56057",
+        "ign": "Kratos",
+        "real_name": "",
+        "country": "VIETNAM",
+        "current_team": {
+            "name": "God Chosen",
+            "id": "16927",
+            "joined": null
+        },
+        "past_teams": []
+    },
+    "56058": {
+        "id": "56058",
+        "ign": "evilzinho",
+        "real_name": "",
+        "country": "VIETNAM",
+        "current_team": {
+            "name": "God Chosen",
+            "id": "16927",
+            "joined": null
+        },
+        "past_teams": []
+    },
+    "51894": {
+        "id": "51894",
+        "ign": "ducduog",
+        "real_name": "",
+        "country": "VIETNAM",
+        "current_team": {
+            "name": "God Chosen",
+            "id": "16927",
+            "joined": null
+        },
+        "past_teams": [
+            {
+                "name": "Homeless Gang",
+                "id": "17777",
+                "date": null
+            }
+        ]
+    },
+    "60217": {
+        "id": "60217",
+        "ign": "051",
+        "real_name": "Jung Min-kyu (정민규)",
+        "country": "SOUTH KOREA",
+        "current_team": {
+            "name": "Mir Gaming",
+            "id": "21437",
+            "joined": "February 2026"
+        },
+        "past_teams": [
+            {
+                "name": "ACupofLibertea",
+                "id": "20619",
+                "date": "February 2026"
+            }
+        ]
+    },
+    "42769": {
+        "id": "42769",
+        "ign": "wezzy",
+        "real_name": "Oh Min-seo (오민서)",
+        "country": "SOUTH KOREA",
+        "current_team": {
+            "name": "Mir Gaming",
+            "id": "21437",
+            "joined": "February 2026"
+        },
+        "past_teams": [
+            {
+                "name": "SHERPA",
+                "id": "14565",
+                "date": null
+            },
+            {
+                "name": "FN Pocheon",
+                "id": "17393",
+                "date": "January 2025"
+            },
+            {
+                "name": "CRG",
+                "id": "16701",
+                "date": "January 2025"
+            },
+            {
+                "name": "Incheon On Sla2ers",
+                "id": "8182",
+                "date": "April 2024"
+            },
+            {
+                "name": "ReliaNcE",
+                "id": "14576",
+                "date": null
+            }
+        ]
+    },
+    "61968": {
+        "id": "61968",
+        "ign": "Kellan",
+        "real_name": "Kim Ji-ho (김지호)",
+        "country": "SOUTH KOREA",
+        "current_team": {
+            "name": "Mir Gaming",
+            "id": "21437",
+            "joined": "February 2026"
+        },
+        "past_teams": [
+            {
+                "name": "SHERPA",
+                "id": "14565",
+                "date": null
+            }
+        ]
+    },
+    "62406": {
+        "id": "62406",
+        "ign": "Day1",
+        "real_name": "",
+        "country": "SOUTH KOREA",
+        "current_team": {
+            "name": "FEARX",
+            "id": "15744",
+            "joined": null
+        },
+        "past_teams": []
+    },
+    "4127": {
+        "id": "4127",
+        "ign": "Felix",
+        "real_name": "Park Hyeon-ho (박현호)",
+        "country": "SOUTH KOREA",
+        "current_team": {
+            "name": "FEARX",
+            "id": "15744",
+            "joined": "December 2025"
+        },
+        "past_teams": [
+            {
+                "name": "Dplus Esports",
+                "id": "11348",
+                "date": "January 2025 – September 2025"
+            },
+            {
+                "name": "fOu Clan",
+                "id": "14566",
+                "date": "January 2025"
+            },
+            {
+                "name": "SUPERFECT Esports",
+                "id": "15747",
+                "date": null
+            },
+            {
+                "name": "SUPERFECT Esports",
+                "id": "15747",
+                "date": "July 2024"
+            },
+            {
+                "name": "World Game Star",
+                "id": "2554",
+                "date": null
+            },
+            {
+                "name": "Maru Gaming",
+                "id": "8086",
+                "date": "December 2022 – June 2023"
+            },
+            {
+                "name": "Desperado",
+                "id": "8082",
+                "date": "April 2022"
+            },
+            {
+                "name": "HolyMolly",
+                "id": "8075",
+                "date": "April 2022"
+            },
+            {
+                "name": "VVS",
+                "id": "6618",
+                "date": null
+            },
+            {
+                "name": "GOMA",
+                "id": "4764",
+                "date": "June 2021"
+            },
+            {
+                "name": "Lunatic-Hai",
+                "id": "2571",
+                "date": "February 2021"
+            },
+            {
+                "name": "Rover",
+                "id": "1061",
+                "date": null
+            }
+        ]
+    },
+    "34883": {
+        "id": "34883",
+        "ign": "Distinct",
+        "real_name": "Kim Sun-myeong (김선명)",
+        "country": "SOUTH KOREA",
+        "current_team": {
+            "name": "FEARX",
+            "id": "15744",
+            "joined": "February 2026"
+        },
+        "past_teams": [
+            {
+                "name": "I Want Sponsor",
+                "id": "16695",
+                "date": null
+            },
+            {
+                "name": "Sin Prisa Gaming",
+                "id": "14422",
+                "date": "December 2023 – February 2024"
+            },
+            {
+                "name": "Gwangju Shadow",
+                "id": "11707",
+                "date": "September 2023 – December 2023"
+            },
+            {
+                "name": "Team OGS",
+                "id": "12391",
+                "date": null
+            },
+            {
+                "name": "THETA_",
+                "id": "11547",
+                "date": null
+            }
+        ]
+    },
+    "42842": {
+        "id": "42842",
+        "ign": "Axe1",
+        "real_name": "Lee Chae-hoon (이채훈)",
+        "country": "SOUTH KOREA",
+        "current_team": {
+            "name": "Mir Gaming",
+            "id": "21437",
+            "joined": "February 2026"
+        },
+        "past_teams": [
+            {
+                "name": "SHERPA",
+                "id": "14565",
+                "date": null
+            },
+            {
+                "name": "ReturN",
+                "id": "14602",
+                "date": null
+            }
+        ]
+    },
+    "60220": {
+        "id": "60220",
+        "ign": "Midro",
+        "real_name": "Yeo Ji-hoo (여지후)",
+        "country": "SOUTH KOREA",
+        "current_team": {
+            "name": "Mir Gaming",
+            "id": "21437",
+            "joined": "February 2026"
+        },
+        "past_teams": [
+            {
+                "name": "ACupofLibertea",
+                "id": "20619",
+                "date": "February 2026"
+            }
+        ]
+    },
+    "25080": {
+        "id": "25080",
+        "ign": "empty",
+        "real_name": "Lee Won-bin (이원빈)",
+        "country": "SOUTH KOREA",
+        "current_team": {
+            "name": "FEARX",
+            "id": "15744",
+            "joined": "December 2025"
+        },
+        "past_teams": [
+            {
+                "name": "FEARX",
+                "id": "15744",
+                "date": "coach"
+            },
+            {
+                "name": "fOu Clan",
+                "id": "14566",
+                "date": "December 2024"
+            },
+            {
+                "name": "SUPERFECT Esports",
+                "id": "15747",
+                "date": null
+            },
+            {
+                "name": "Incheon On Sla2ers",
+                "id": "8182",
+                "date": "February 2024 – April 2024"
+            },
+            {
+                "name": "Gwangju Shadow",
+                "id": "11707",
+                "date": "January 2023 – December 2023"
+            },
+            {
+                "name": "Over Quality",
+                "id": "10603",
+                "date": "January 2023"
+            },
+            {
+                "name": "Next eSports",
+                "id": "8090",
+                "date": null
+            }
+        ]
+    },
+    "62407": {
+        "id": "62407",
+        "ign": "Zayn",
+        "real_name": "",
+        "country": "SOUTH KOREA",
+        "current_team": {
+            "name": "FEARX",
+            "id": "15744",
+            "joined": null
+        },
+        "past_teams": []
+    },
+    "62403": {
+        "id": "62403",
+        "ign": "Fric",
+        "real_name": "Jeon Jae-hyeok (전재혁)",
+        "country": "SOUTH KOREA",
+        "current_team": {
+            "name": "Gen.G Global Academy",
+            "id": "17392",
+            "joined": "February 2026"
+        },
+        "past_teams": []
+    },
+    "42843": {
+        "id": "42843",
+        "ign": "fl0wy",
+        "real_name": "Kim Chul-hwan (김철환)",
+        "country": "SOUTH KOREA",
+        "current_team": {
+            "name": "ARETE",
+            "id": "20978",
+            "joined": null
+        },
+        "past_teams": [
+            {
+                "name": "ReturN",
+                "id": "14602",
+                "date": null
+            }
+        ]
+    },
+    "44586": {
+        "id": "44586",
+        "ign": "ANNYEON",
+        "real_name": "An Seo-jin (안서진)",
+        "country": "SOUTH KOREA",
+        "current_team": {
+            "name": "ARETE",
+            "id": "20978",
+            "joined": "February 2026"
+        },
+        "past_teams": [
+            {
+                "name": "SUPERFECT Esports",
+                "id": "15747",
+                "date": null
+            },
+            {
+                "name": "Maru Gaming",
+                "id": "8086",
+                "date": null
+            }
+        ]
+    },
+    "62405": {
+        "id": "62405",
+        "ign": "RgoN",
+        "real_name": "Yong Seung-hyeon (용승현)",
+        "country": "SOUTH KOREA",
+        "current_team": {
+            "name": "Gen.G Global Academy",
+            "id": "17392",
+            "joined": "February 2026"
+        },
+        "past_teams": []
+    },
+    "61079": {
+        "id": "61079",
+        "ign": "xiongdi",
+        "real_name": "",
+        "country": "SOUTH KOREA",
+        "current_team": {
+            "name": "ARETE",
+            "id": "20978",
+            "joined": null
+        },
+        "past_teams": []
+    },
+    "61081": {
+        "id": "61081",
+        "ign": "XIV",
+        "real_name": "",
+        "country": "SOUTH KOREA",
+        "current_team": {
+            "name": "ARETE",
+            "id": "20978",
+            "joined": null
+        },
+        "past_teams": []
+    },
+    "62404": {
+        "id": "62404",
+        "ign": "Sovereign",
+        "real_name": "Kim Do-hyun (김도현)",
+        "country": "SOUTH KOREA",
+        "current_team": {
+            "name": "Gen.G Global Academy",
+            "id": "17392",
+            "joined": "February 2026"
+        },
+        "past_teams": []
+    },
+    "25082": {
+        "id": "25082",
+        "ign": "Rico",
+        "real_name": "Han Jun-seo (한준서)",
+        "country": "SOUTH KOREA",
+        "current_team": {
+            "name": "ARETE",
+            "id": "20978",
+            "joined": "February 2026"
+        },
+        "past_teams": [
+            {
+                "name": "GOD FIELD",
+                "id": "21341",
+                "date": null
+            },
+            {
+                "name": "Dplus Esports",
+                "id": "11348",
+                "date": "January 2025 – September 2025"
+            },
+            {
+                "name": "fOu Clan",
+                "id": "14566",
+                "date": "October 2024 – January 2025"
+            },
+            {
+                "name": "Be 정상",
+                "id": "16220",
+                "date": null
+            },
+            {
+                "name": "Nongshim RedForce",
+                "id": "11060",
+                "date": "February 2024 – May 2024"
+            },
+            {
+                "name": "골판지 전사",
+                "id": "14581",
+                "date": "February 2024"
+            },
+            {
+                "name": "No No No",
+                "id": "12397",
+                "date": null
+            },
+            {
+                "name": "TurningMecard",
+                "id": "11552",
+                "date": null
+            },
+            {
+                "name": "King's Man",
+                "id": "8905",
+                "date": null
+            },
+            {
+                "name": "Next eSports",
+                "id": "8090",
+                "date": null
+            }
+        ]
+    },
+    "48925": {
+        "id": "48925",
+        "ign": "Raxcal",
+        "real_name": "Kim Min-seok (김민석)",
+        "country": "SOUTH KOREA",
+        "current_team": {
+            "name": "Gen.G Global Academy",
+            "id": "17392",
+            "joined": "February 2026"
+        },
+        "past_teams": [
+            {
+                "name": "ONSIDE GAMING",
+                "id": "19189",
+                "date": "June 2025 – September 2025"
+            },
+            {
+                "name": "FN Pocheon",
+                "id": "17393",
+                "date": "January 2025"
+            },
+            {
+                "name": "URACHACHA",
+                "id": "16696",
+                "date": "December 2024"
+            }
+        ]
+    },
+    "62402": {
+        "id": "62402",
+        "ign": "KiTae",
+        "real_name": "Park Ki-tae (박기태)",
+        "country": "SOUTH KOREA",
+        "current_team": {
+            "name": "Gen.G Global Academy",
+            "id": "17392",
+            "joined": "February 2026"
+        },
+        "past_teams": []
+    },
+    "16671": {
+        "id": "16671",
+        "ign": "welyy",
+        "real_name": "",
+        "country": "NORWAY",
+        "current_team": {
+            "name": "SaD Esports",
+            "id": "13920",
+            "joined": "June 2025"
+        },
+        "past_teams": [
+            {
+                "name": "Ambrosia",
+                "id": "11963",
+                "date": "April 2025 – June 2025"
+            },
+            {
+                "name": "Blue Otter",
+                "id": "16278",
+                "date": "February 2025"
+            },
+            {
+                "name": "Green Goblin",
+                "id": "15779",
+                "date": "May 2024"
+            },
+            {
+                "name": "meow control",
+                "id": "15251",
+                "date": null
+            },
+            {
+                "name": "RyZe Esports",
+                "id": "14829",
+                "date": "April 2024"
+            },
+            {
+                "name": "Scan City",
+                "id": "13148",
+                "date": null
+            },
+            {
+                "name": "MINDCONTROL",
+                "id": "13745",
+                "date": null
+            },
+            {
+                "name": "UC Irvine",
+                "id": "10577",
+                "date": "October 2023"
+            },
+            {
+                "name": "Dreams To Legends",
+                "id": "13801",
+                "date": "October 2023 – October 2023"
+            },
+            {
+                "name": "MINDCONTROL",
+                "id": "13745",
+                "date": "October 2023"
+            },
+            {
+                "name": "Argon Black",
+                "id": "10369",
+                "date": null
+            },
+            {
+                "name": "MCT Esports",
+                "id": "9511",
+                "date": null
+            },
+            {
+                "name": "Stasis",
+                "id": "7328",
+                "date": "October 2022"
+            },
+            {
+                "name": "Team Revenge",
+                "id": "9212",
+                "date": "August 2022"
+            },
+            {
+                "name": "FYL",
+                "id": "3215",
+                "date": "January 2022 – February 2022"
+            },
+            {
+                "name": "Eclectiq",
+                "id": "6454",
+                "date": "November 2021"
+            },
+            {
+                "name": "MystiC",
+                "id": "6196",
+                "date": "August 2021 – September 2021"
+            },
+            {
+                "name": "HalfBliss",
+                "id": "2588",
+                "date": "August 2021"
+            }
+        ]
+    },
+    "34057": {
+        "id": "34057",
+        "ign": "Jerrwin",
+        "real_name": "",
+        "country": "INDIA",
+        "current_team": {
+            "name": "SaD Esports",
+            "id": "13920",
+            "joined": "April 2025"
+        },
+        "past_teams": [
+            {
+                "name": "Trust In Plug",
+                "id": "16898",
+                "date": "November 2024 – March 2025"
+            },
+            {
+                "name": "evil genies",
+                "id": "15229",
+                "date": null
+            },
+            {
+                "name": "Lemonade Stand",
+                "id": "13277",
+                "date": null
+            },
+            {
+                "name": "SEN Shahzam",
+                "id": "13834",
+                "date": null
+            }
+        ]
+    },
+    "41550": {
+        "id": "41550",
+        "ign": "zaj",
+        "real_name": "",
+        "country": "CAMBODIA",
+        "current_team": {
+            "name": "SaD Esports",
+            "id": "13920",
+            "joined": "January 2026"
+        },
+        "past_teams": [
+            {
+                "name": "G KENT LOVES JP",
+                "id": "20270",
+                "date": null
+            },
+            {
+                "name": "YDZ Esports",
+                "id": "15471",
+                "date": null
+            },
+            {
+                "name": "ASTANE",
+                "id": "15305",
+                "date": null
+            },
+            {
+                "name": "RyZe Esports",
+                "id": "14829",
+                "date": "March 2024"
+            }
+        ]
+    },
+    "733": {
+        "id": "733",
+        "ign": "stellar",
+        "real_name": "Brenden McGrath",
+        "country": "UNITED STATES",
+        "current_team": {
+            "name": "SaD Esports",
+            "id": "13920",
+            "joined": "January 2026"
+        },
+        "past_teams": [
+            {
+                "name": "YFP",
+                "id": "5038",
+                "date": "November 2024 – September 2025"
+            },
+            {
+                "name": "DarkZero Esports",
+                "id": "4346",
+                "date": "June 2024 – August 2024"
+            },
+            {
+                "name": "Turtle Troop",
+                "id": "11836",
+                "date": "January 2024 – June 2024"
+            },
+            {
+                "name": "Team Brax",
+                "id": "10344",
+                "date": null
+            },
+            {
+                "name": "100 Thieves",
+                "id": "120",
+                "date": "April 2022 – September 2023"
+            },
+            {
+                "name": "SoaR",
+                "id": "4345",
+                "date": "January 2022 – April 2022"
+            },
+            {
+                "name": "Pioneers",
+                "id": "4940",
+                "date": "trial"
+            },
+            {
+                "name": "Benchwarmers",
+                "id": "5772",
+                "date": "July 2021"
+            },
+            {
+                "name": "Luminosity",
+                "id": "642",
+                "date": "August 2020 – August 2021"
+            },
+            {
+                "name": "MIXUP",
+                "id": "190",
+                "date": "August 2020"
+            }
+        ]
+    },
+    "39239": {
+        "id": "39239",
+        "ign": "payne",
+        "real_name": "",
+        "country": "UNITED STATES",
+        "current_team": {
+            "name": "SaD Esports",
+            "id": "13920",
+            "joined": "January 2026"
+        },
+        "past_teams": [
+            {
+                "name": "Abdes Daycare",
+                "id": "16527",
+                "date": null
+            },
+            {
+                "name": "CSP Val Blue",
+                "id": "14165",
+                "date": null
+            },
+            {
+                "name": "YDZ Esports",
+                "id": "15471",
+                "date": null
+            },
+            {
+                "name": "yves saint laurent",
+                "id": "15769",
+                "date": null
+            },
+            {
+                "name": "ASTANE",
+                "id": "15305",
+                "date": null
+            },
+            {
+                "name": "RyZe Esports",
+                "id": "14829",
+                "date": "March 2024"
+            }
+        ]
+    },
+    "15681": {
+        "id": "15681",
+        "ign": "Palla",
+        "real_name": "Davi Alcides",
+        "country": "BRAZIL",
+        "current_team": {
+            "name": "INTZ",
+            "id": "21089",
+            "joined": "January 2026"
+        },
+        "past_teams": [
+            {
+                "name": "Stellae Gaming",
+                "id": "10727",
+                "date": "December 2025 – January 2026"
+            },
+            {
+                "name": "FURIA",
+                "id": "2406",
+                "date": "July 2025 – October 2025"
+            },
+            {
+                "name": "MIBR",
+                "id": "7386",
+                "date": "June 2024 – November 2024"
+            },
+            {
+                "name": "Stellae Gaming",
+                "id": "10727",
+                "date": "June 2023 – May 2024"
+            },
+            {
+                "name": "Spotify Rebelion",
+                "id": "11887",
+                "date": null
+            },
+            {
+                "name": "puGG",
+                "id": "8345",
+                "date": null
+            },
+            {
+                "name": "Maniacos da Mira",
+                "id": "8271",
+                "date": null
+            },
+            {
+                "name": "Odin&Amigos",
+                "id": "4767",
+                "date": null
+            },
+            {
+                "name": "DIA DE FOLGA",
+                "id": "7666",
+                "date": null
+            },
+            {
+                "name": "Triplers",
+                "id": "4912",
+                "date": null
+            }
+        ]
+    },
+    "1578": {
+        "id": "1578",
+        "ign": "shion",
+        "real_name": "Gabriel Vilela",
+        "country": "BRAZIL",
+        "current_team": {
+            "name": "Holy",
+            "id": "21122",
+            "joined": "January 2026"
+        },
+        "past_teams": [
+            {
+                "name": "Corinthians Esports",
+                "id": "17127",
+                "date": "January 2025"
+            },
+            {
+                "name": "THE 7",
+                "id": "15745",
+                "date": "January 2025"
+            },
+            {
+                "name": "OLIMPO",
+                "id": "14470",
+                "date": "May 2024"
+            },
+            {
+                "name": "Arca do Marlow",
+                "id": "13918",
+                "date": null
+            },
+            {
+                "name": "00Nation",
+                "id": "11195",
+                "date": "December 2022"
+            },
+            {
+                "name": "Liberty",
+                "id": "581",
+                "date": "November 2022"
+            },
+            {
+                "name": "NOTRAB",
+                "id": "422",
+                "date": null
+            }
+        ]
+    },
+    "6202": {
+        "id": "6202",
+        "ign": "guuih",
+        "real_name": "Guilherme Mariano",
+        "country": "BRAZIL",
+        "current_team": {
+            "name": "INTZ",
+            "id": "21089",
+            "joined": "January 2026"
+        },
+        "past_teams": [
+            {
+                "name": "Stellae Gaming",
+                "id": "10727",
+                "date": "May 2024 – January 2026"
+            },
+            {
+                "name": "FUSION",
+                "id": "7269",
+                "date": "March 2024"
+            },
+            {
+                "name": "Libertados",
+                "id": "13919",
+                "date": null
+            },
+            {
+                "name": "Liberty",
+                "id": "581",
+                "date": "January 2023"
+            },
+            {
+                "name": "Tuzzy E-Sports",
+                "id": "8267",
+                "date": null
+            },
+            {
+                "name": "Treinão do Fra",
+                "id": "6884",
+                "date": null
+            },
+            {
+                "name": "Rise Gaming",
+                "id": "2343",
+                "date": "January 2022 – January 2023"
+            },
+            {
+                "name": "ODDIK",
+                "id": "4958",
+                "date": "June 2021"
+            },
+            {
+                "name": "Exodia Club",
+                "id": "4044",
+                "date": "June 2021"
+            },
+            {
+                "name": "OSKARARANDOM",
+                "id": "3658",
+                "date": null
+            },
+            {
+                "name": "DRAGON BALL",
+                "id": "3219",
+                "date": "February 2021"
+            },
+            {
+                "name": "VIBRANT",
+                "id": "1383",
+                "date": "January 2021"
+            }
+        ]
+    },
+    "2486": {
+        "id": "2486",
+        "ign": "pollo",
+        "real_name": "Julio Silva",
+        "country": "BRAZIL",
+        "current_team": {
+            "name": "Holy",
+            "id": "21122",
+            "joined": "January 2026"
+        },
+        "past_teams": [
+            {
+                "name": "Corinthians Esports",
+                "id": "17127",
+                "date": "January 2025"
+            },
+            {
+                "name": "THE 7",
+                "id": "15745",
+                "date": "January 2025"
+            },
+            {
+                "name": "OLIMPO",
+                "id": "14470",
+                "date": "May 2024"
+            },
+            {
+                "name": "Arca do Marlow",
+                "id": "13918",
+                "date": null
+            },
+            {
+                "name": "Keyd Stars",
+                "id": "4894",
+                "date": "December 2022"
+            },
+            {
+                "name": "Stars Horizon",
+                "id": "7013",
+                "date": "August 2022 – December 2022"
+            },
+            {
+                "name": "Team Vikings",
+                "id": "420",
+                "date": "January 2022 – June 2022"
+            },
+            {
+                "name": "LilBabies",
+                "id": "6479",
+                "date": null
+            },
+            {
+                "name": "Rise Gaming",
+                "id": "2343",
+                "date": "July 2021"
+            },
+            {
+                "name": "Black Dragons",
+                "id": "417",
+                "date": null
+            },
+            {
+                "name": "RED Canids",
+                "id": "1124",
+                "date": "October 2020"
+            },
+            {
+                "name": "VIMDOLOL",
+                "id": "648",
+                "date": "October 2020"
+            }
+        ]
+    },
+    "662": {
+        "id": "662",
+        "ign": "pryze",
+        "real_name": "Luis-Henrique Viveiros",
+        "country": "BRAZIL",
+        "current_team": {
+            "name": "Holy",
+            "id": "21122",
+            "joined": "January 2026"
+        },
+        "past_teams": [
+            {
+                "name": "2Game Esports",
+                "id": "15072",
+                "date": "May 2025 – October 2025"
+            },
+            {
+                "name": "FURIA",
+                "id": "2406",
+                "date": "March 2025 – May 2025"
+            },
+            {
+                "name": "2Game Esports",
+                "id": "15072",
+                "date": "January 2024 – March 2025"
+            },
+            {
+                "name": "ABOMINEVE",
+                "id": "13714",
+                "date": null
+            },
+            {
+                "name": "NEV",
+                "id": "13189",
+                "date": null
+            },
+            {
+                "name": "MERCEDES",
+                "id": "11993",
+                "date": null
+            },
+            {
+                "name": "Tuzzy E-Sports",
+                "id": "8267",
+                "date": null
+            },
+            {
+                "name": "TRY eSports",
+                "id": "7344",
+                "date": "January 2022"
+            },
+            {
+                "name": "HIGHPOWER",
+                "id": "695",
+                "date": "September 2021"
+            },
+            {
+                "name": "RevoadaVLR",
+                "id": "4904",
+                "date": null
+            },
+            {
+                "name": "Keyd Stars",
+                "id": "4894",
+                "date": "January 2021 – May 2021"
+            },
+            {
+                "name": "Athletico Zombies",
+                "id": "1693",
+                "date": "November 2020"
+            },
+            {
+                "name": "PAPIBAQUÍGRAFO",
+                "id": "1432",
+                "date": "November 2020"
+            },
+            {
+                "name": "Black Dragons",
+                "id": "417",
+                "date": "August 2020 – September 2020"
+            },
+            {
+                "name": "defkon",
+                "id": "444",
+                "date": "August 2020"
+            }
+        ]
+    },
+    "41449": {
+        "id": "41449",
+        "ign": "Campos",
+        "real_name": "",
+        "country": "BRAZIL",
+        "current_team": {
+            "name": "Holy",
+            "id": "21122",
+            "joined": null
+        },
+        "past_teams": [
+            {
+                "name": "AURA",
+                "id": "16726",
+                "date": null
+            },
+            {
+                "name": "Lost Puppies Quackers",
+                "id": "19210",
+                "date": "October 2025"
+            },
+            {
+                "name": "Santuario",
+                "id": "19327",
+                "date": null
+            }
+        ]
+    },
+    "15395": {
+        "id": "15395",
+        "ign": "gbz",
+        "real_name": "",
+        "country": "BRAZIL",
+        "current_team": {
+            "name": "Holy",
+            "id": "21122",
+            "joined": "January 2026"
+        },
+        "past_teams": [
+            {
+                "name": "MIBR Academy",
+                "id": "16606",
+                "date": "February 2025"
+            },
+            {
+                "name": "SAGAZ",
+                "id": "13683",
+                "date": null
+            },
+            {
+                "name": "OS CARA CEGO",
+                "id": "12644",
+                "date": null
+            },
+            {
+                "name": "HACKERS",
+                "id": "12657",
+                "date": null
+            },
+            {
+                "name": "Scroll Lock",
+                "id": "10952",
+                "date": null
+            },
+            {
+                "name": "FAKEZIN23",
+                "id": "10771",
+                "date": null
+            },
+            {
+                "name": "REiGN",
+                "id": "8298",
+                "date": null
+            },
+            {
+                "name": "HACKERS",
+                "id": "7629",
+                "date": null
+            },
+            {
+                "name": "LPX Gaming",
+                "id": "3667",
+                "date": null
+            }
+        ]
+    },
+    "20238": {
+        "id": "20238",
+        "ign": "Askia",
+        "real_name": "Estevão Ferreira",
+        "country": "BRAZIL",
+        "current_team": {
+            "name": "INTZ",
+            "id": "21089",
+            "joined": "January 2026"
+        },
+        "past_teams": [
+            {
+                "name": "Stellae Gaming",
+                "id": "10727",
+                "date": "December 2025 – January 2026"
+            },
+            {
+                "name": "SET 2K25",
+                "id": "20222",
+                "date": null
+            },
+            {
+                "name": "2Game Academy",
+                "id": "17095",
+                "date": "May 2025"
+            },
+            {
+                "name": "2Game Esports",
+                "id": "15072",
+                "date": "March 2025 – May 2025"
+            },
+            {
+                "name": "2Game Academy",
+                "id": "17095",
+                "date": "February 2025 – March 2025"
+            },
+            {
+                "name": "Hero Base",
+                "id": "15117",
+                "date": "February 2024"
+            },
+            {
+                "name": "UNIÃO",
+                "id": "15071",
+                "date": "December 2023 – February 2024"
+            },
+            {
+                "name": "The Union",
+                "id": "9447",
+                "date": "May 2023 – October 2023"
+            },
+            {
+                "name": "FRANATIC",
+                "id": "11880",
+                "date": null
+            },
+            {
+                "name": "SQUAD6",
+                "id": "10742",
+                "date": null
+            },
+            {
+                "name": "Team Brave Soldiers",
+                "id": "1610",
+                "date": "March 2022 – October 2022"
+            },
+            {
+                "name": "Inflames",
+                "id": "6405",
+                "date": null
+            }
+        ]
+    },
+    "9266": {
+        "id": "9266",
+        "ign": "Tisora",
+        "real_name": "Kauã Estefanini",
+        "country": "BRAZIL",
+        "current_team": {
+            "name": "INTZ",
+            "id": "21089",
+            "joined": "January 2026"
+        },
+        "past_teams": [
+            {
+                "name": "Stellae Gaming",
+                "id": "10727",
+                "date": "January 2026"
+            },
+            {
+                "name": "A nova onda do Imperador",
+                "id": "14547",
+                "date": null
+            },
+            {
+                "name": "SAGAZ",
+                "id": "13683",
+                "date": null
+            },
+            {
+                "name": "CO-OP.gg",
+                "id": "15073",
+                "date": "February 2024"
+            },
+            {
+                "name": "Tropa do avanço",
+                "id": "14551",
+                "date": null
+            },
+            {
+                "name": "PEPA E AMIGOS",
+                "id": "13831",
+                "date": null
+            },
+            {
+                "name": "Tropinha do TIKTOK 2.0",
+                "id": "8266",
+                "date": "October 2022"
+            },
+            {
+                "name": "B4 Esports",
+                "id": "7309",
+                "date": "January 2022"
+            },
+            {
+                "name": "Jaguares Esports",
+                "id": "4927",
+                "date": "June 2021 – September 2021"
+            },
+            {
+                "name": "Kikados da Galaxy Carrots",
+                "id": "4049",
+                "date": "June 2021"
+            },
+            {
+                "name": "Galaxy Carrots",
+                "id": "1311",
+                "date": "January 2022"
+            }
+        ]
+    },
+    "3424": {
+        "id": "3424",
+        "ign": "Siduzord",
+        "real_name": "Renan Siduoski",
+        "country": "BRAZIL",
+        "current_team": {
+            "name": "INTZ",
+            "id": "21089",
+            "joined": "January 2026"
+        },
+        "past_teams": [
+            {
+                "name": "Stellae Gaming",
+                "id": "10727",
+                "date": "February 2023 – January 2026"
+            },
+            {
+                "name": "REiGN",
+                "id": "8298",
+                "date": null
+            },
+            {
+                "name": "puGG",
+                "id": "8345",
+                "date": null
+            },
+            {
+                "name": "Mowil Esports",
+                "id": "6766",
+                "date": null
+            },
+            {
+                "name": "1tap",
+                "id": "901",
+                "date": null
+            }
+        ]
     }
 }
