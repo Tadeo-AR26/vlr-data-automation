@@ -14,6 +14,13 @@ class MatchScraper:
 
         date_tag = soup.select_one('.match-header-date .moment-tz-convert')
         match_date = date_tag['data-utc-ts'] if date_tag else "N/A"
+        
+        teams = []
+        for team_link in soup.select('.match-header-vs .match-header-link'):
+            t_id = team_link['href'].split('/')[2]
+            t_name = team_link.get_text(strip=True)
+            if t_id.isdigit():
+                teams.append({"id": t_id, "name": t_name})
 
         score_container = soup.select_one('.match-header-vs-score')
         score = [s.get_text(strip=True) for s in score_container.select('span[class*="score-"]') if s.get_text(strip=True).isdigit()] if score_container else ["0", "0"]
@@ -90,6 +97,7 @@ class MatchScraper:
 
         return {
             "id": match_id,
+            "teams": teams,
             "date_utc": match_date,
             "score": score,
             "veto": veto_data,

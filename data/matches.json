@@ -1,6 +1,16 @@
 {
     "625788": {
         "id": "625788",
+        "teams": [
+            {
+                "id": "12694",
+                "name": "Gentle Mates"
+            },
+            {
+                "id": "1120",
+                "name": "EDward Gaming"
+            }
+        ],
         "date_utc": "2026-02-28 12:00:00",
         "score": [
             "2",
