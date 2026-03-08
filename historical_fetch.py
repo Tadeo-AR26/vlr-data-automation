@@ -21,16 +21,18 @@ def run_historical_fetch(tournament_ids):
 
     for t_id in tournament_ids:
         print(f"Processing Tournament {t_id}...")
-        if t_id in tournaments_db:
-            print(f"Tournament {t_id} already in database, skipping.")
-            continue
-        t_data = tournament_scraper.fetch_tournament(t_id)
-        if not t_data:
-            print(f"Failed to fetch data for tournament {t_id}.")
-            continue
         
-        tournaments_db[t_id] = t_data
-        save_json(tournaments_db, 'tournaments.json')
+        # Obtenemos la data si ya existe, o la fetcheamos si no
+        if t_id in tournaments_db:
+            print(f"Tournament {t_id} metadata already in DB, checking matches...")
+            t_data = tournaments_db[t_id]
+        else:
+            t_data = tournament_scraper.fetch_tournament(t_id)
+            if not t_data:
+                print(f"Failed to fetch data for tournament {t_id}.")
+                continue
+            tournaments_db[t_id] = t_data
+            save_json(tournaments_db, 'tournaments.json')
 
         for team_id in t_data.get("teams", []):
             if team_id not in teams_db:
@@ -57,18 +59,18 @@ def run_historical_fetch(tournament_ids):
                     for player in map_info.get("players", []):
                         p_id = player["player_id"]
                         if p_id not in players_db:
-                            print(f"Fetching Player {p_id} for Match {m_id}...")
+                            print(f"Fetching Player {p_id}...")
                             player_data = player_scraper.fetch_player(p_id)
                             if player_data:
                                 players_db[p_id] = player_data
-                                save_json(players_db, 'players.json')
                             time.sleep(random.randint(5, 8))
-            
-            time.sleep(random.randint(5, 10))
+                
+                # Guardamos a todos los jugadores nuevos del partido de una sola vez
+                save_json(players_db, 'players.json')
     
     print("Historical fetch completed.")
 
 if __name__ == "__main__":
-    tournament_ids = ["353"]
-    # 353 Reykjavik 2021
+    tournament_ids = ["1188"]
+    # 353 Reykjavik 2021, 466 Berlin, 449 Champions, 926 Reykjavik 2022, 1014 Copenhagen 2023, 1015 Istanbul 2023, 1188 Lock-In
     run_historical_fetch(tournament_ids)
