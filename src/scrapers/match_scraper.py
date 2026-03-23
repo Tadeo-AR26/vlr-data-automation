@@ -94,9 +94,19 @@ class MatchScraper:
                 "game_id": game_id,
                 "players": players_in_map
             })
+        
+        tourney_tag = soup.select_one('.match-header-event')
+        tournament_id = "N/A"
+        if tourney_tag and 'href' in tourney_tag.attrs:
+            # Extraemos el ID numérico de la URL
+            try:
+                tournament_id = tourney_tag['href'].split('/')[2]
+            except (IndexError, AttributeError):
+                tournament_id = "N/A"
 
         return {
             "id": match_id,
+            "tournament_id": tournament_id,
             "teams": teams,
             "date_utc": match_date,
             "score": score,
