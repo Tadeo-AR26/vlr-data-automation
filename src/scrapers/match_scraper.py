@@ -40,6 +40,15 @@ class MatchScraper:
             g_id = item.get('data-game-id')
             raw_name = item.get_text(strip=True)
             clean_name = re.sub(r'^\d+', '', raw_name).strip() # Cleans "1Haven" -> "Haven"
+            
+            # More robust map name extraction
+            map_name_tag = item.select_one('.map-name')
+            if map_name_tag:
+                clean_name = map_name_tag.get_text(strip=True)
+            else:
+                raw_name = item.get_text(strip=True)
+                clean_name = re.sub(r'^\d+', '', raw_name).strip()
+
             map_nav.append({"game_id": g_id, "name": clean_name})
 
         performance_per_map = []

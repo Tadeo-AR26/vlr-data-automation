@@ -41,13 +41,15 @@ class DatabaseManager:
             conn.commit()
 
             # Tabla de Matches
+            cursor.execute('DROP TABLE IF EXISTS matches') # For development: ensures schema is updated
             cursor.execute('''
                 CREATE TABLE IF NOT EXISTS matches (
                     id TEXT PRIMARY KEY,
                     tournament_id TEXT,
-                    team1_id TEXT, -- Nuevo campo
-                    team2_id TEXT, -- Nuevo campo
+                    team1_id TEXT,
+                    team2_id TEXT, 
                     date_utc TEXT,
+                    maps_played_json TEXT, 
                     teams_json TEXT,
                     score TEXT,
                     performance_json TEXT,
@@ -86,9 +88,13 @@ class DatabaseManager:
             t2_id = teams[1].get("id") if len(teams) > 1 else None
             score = data.get("score")
             if isinstance(score, list): score = "-".join(map(str, score))
+
+            # Extraemos solo los nombres de los mapas para la columna ligera
+            maps_played = [m.get("map") for m in data.get("performance_by_map", []) if m.get("map")]
+            maps_played = [m.get("map") for m in data.get("performance_by_map", []) if m.get("map") and m.get("map") != "All Maps"]
             
-            conn.execute('''INSERT OR REPLACE INTO matches VALUES (?, ?, ?, ?, ?, ?, ?, ?)''',
-                         (m_id, t_id, t1_id, t2_id, data.get("date_utc"), 
+            conn.execute('''INSERT OR REPLACE INTO matches VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)''',
+                         (m_id, t_id, t1_id, t2_id, data.get("date_utc"), json.dumps(maps_played),
                           json.dumps(teams), str(score), json.dumps(data.get("performance_by_map"))))
     
     def save_tournament(self, t_id, data):
@@ -210,7 +216,64 @@ class DatabaseManager:
         team = self.get_team_by_id(team_id)
         return team.get("recent_matches", []) if team else None
 
-    
+    def _format_match(self, row, include_performance=False):
+        """Formatea una fila de la tabla 'matches', parseando los JSON."""
+        if not row: return None
+        data = dict(row)
+        
+        if data.get("maps_played_json"):
+            data["maps_played"] = json.loads(data["maps_played_json"])
+            del data["maps_played_json"]
+        
+        if data.get("teams_json"):
+            data["teams"] = json.loads(data["teams_json"])
+            del data["teams_json"]
+        
+        if include_performance:
+            if data.get("performance_json"):
+                data["performance"] = json.loads(data["performance_json"])
+        
+        # Elimina siempre el campo JSON crudo para no exponerlo
+        if "performance_json" in data:
+            del data["performance_json"]
+            
+        return data
+
+    def get_matches(self, limit: int = 20, offset: int = 0, tournament_id: str = None, team_id: str = None):
+        """Obtiene una lista de partidos con filtros y paginación, sin performance."""
+        base_query = "SELECT id, tournament_id, team1_id, team2_id, date_utc, maps_played_json, teams_json, score FROM matches"
+        conditions = []
+        params = []
+
+        if tournament_id:
+            conditions.append("tournament_id = ?")
+            params.append(tournament_id)
+        
+        if team_id:
+            conditions.append("(team1_id = ? OR team2_id = ?)")
+            params.extend([team_id, team_id])
+
+        if conditions:
+            base_query += " WHERE " + " AND ".join(conditions)
+
+        base_query += " ORDER BY date_utc DESC LIMIT ? OFFSET ?"
+        params.extend([limit, offset])
+
+        with self.get_connection() as conn:
+            cursor = conn.cursor()
+            cursor.execute(base_query, tuple(params))
+            rows = cursor.fetchall()
+            return [self._format_match(row, include_performance=False) for row in rows]
+
+    def get_match_by_id(self, match_id: str):
+        """Obtiene un partido específico por su ID, incluyendo el performance."""
+        query = "SELECT * FROM matches WHERE id = ?"
+        with self.get_connection() as conn:
+            cursor = conn.cursor()
+            cursor.execute(query, (match_id,))
+            row = cursor.fetchone()
+            return self._format_match(row, include_performance=True)
+
     PLAYER_FIELDS = "p.id, p.ign, p.real_name, p.country, p.current_team_id, p.team_joined_date, p.data_json"
 
     def _format_player(self, row):
