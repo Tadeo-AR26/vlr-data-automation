@@ -117,3 +117,95 @@ class DatabaseManager:
             cursor.execute("SELECT data_json FROM tournaments WHERE id = ?", (t_id,))
             row = cursor.fetchone()
             return json.loads(row["data_json"]) if row else None
+        
+    def _get_player_names(self, player_ids):
+        """Busca los IGNs de una lista de IDs en una sola consulta."""
+        if not player_ids:
+            return []
+        
+        placeholders = ', '.join(['?'] * len(player_ids))
+        query = f"SELECT id, ign FROM players WHERE id IN ({placeholders})"
+        
+        with self.get_connection() as conn:
+            cursor = conn.cursor()
+            cursor.execute(query, player_ids)
+            rows = cursor.fetchall()
+            return [dict(row) for row in rows]
+    
+    COMMON_FIELDS = "id, name, tag, country, vlr_rank, last_updated, data_json"
+
+    def _format_team(self, row):
+        """Extrae IDs y busca los IGNs para el roster."""
+        if not row: return None
+        data = dict(row)
+        
+        if data.get("data_json"):
+            json_dump = json.loads(data["data_json"])
+            
+            # Extraemos los IDs del roster
+            player_ids = json_dump.get("roster", [])
+            
+            # INTEGRACIÓN: Convertimos IDs en objetos con IGN
+            data["roster"] = self._get_player_names(player_ids)
+            
+            matches_obj = json_dump.get("matches", {})
+            data["upcoming_matches"] = matches_obj.get("upcoming", [])
+            data["recent_matches"] = matches_obj.get("recent", [])
+            
+            del data["data_json"]
+            
+        return data
+
+    def get_teams(self, limit: int = 20, offset: int = 0):
+        query = f"SELECT {self.COMMON_FIELDS} FROM teams ORDER BY vlr_rank ASC LIMIT ? OFFSET ?"
+        with self.get_connection() as conn:
+            cursor = conn.cursor()
+            cursor.execute(query, (limit, offset))
+            rows = cursor.fetchall()
+            return [self._format_team(row) for row in rows]
+
+    def get_team_by_id(self, team_id: str):
+        query = f"SELECT {self.COMMON_FIELDS} FROM teams WHERE id = ?"
+        with self.get_connection() as conn:
+            cursor = conn.cursor()
+            cursor.execute(query, (team_id,))
+            return self._format_team(cursor.fetchone())
+
+    def get_team_by_name(self, name: str):
+        query = f"SELECT {self.COMMON_FIELDS} FROM teams WHERE name = ? COLLATE NOCASE"
+        with self.get_connection() as conn:
+            cursor = conn.cursor()
+            cursor.execute(query, (name,))
+            return self._format_team(cursor.fetchone())
+
+    def get_team_by_tag(self, tag: str):
+        query = f"SELECT {self.COMMON_FIELDS} FROM teams WHERE tag = ? COLLATE NOCASE"
+        with self.get_connection() as conn:
+            cursor = conn.cursor()
+            cursor.execute(query, (tag,))
+            return self._format_team(cursor.fetchone())
+        
+    def get_team_by_any(self, team_id: str = None, name: str = None, tag: str = None):
+        if team_id:
+            return self.get_team_by_id(team_id)
+        if name:
+            return self.get_team_by_name(name)
+        if tag:
+            return self.get_team_by_tag(tag)
+        return None
+
+    def get_teams_by_country(self, country: str, limit: int = 50):
+        query = f"SELECT {self.COMMON_FIELDS} FROM teams WHERE country = ? COLLATE NOCASE ORDER BY vlr_rank ASC LIMIT ?"
+        with self.get_connection() as conn:
+            cursor = conn.cursor()
+            cursor.execute(query, (country, limit))
+            rows = cursor.fetchall()
+            return [self._format_team(row) for row in rows]
+            
+    def get_team_roster_ids(self, team_id: str):
+        team = self.get_team_by_id(team_id)
+        return team.get("roster", []) if team else None
+
+    def get_team_match_ids(self, team_id: str):
+        team = self.get_team_by_id(team_id)
+        return team.get("recent_matches", []) if team else None
