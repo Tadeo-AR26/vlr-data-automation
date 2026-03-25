@@ -194,11 +194,11 @@ class DatabaseManager:
             return self.get_team_by_tag(tag)
         return None
 
-    def get_teams_by_country(self, country: str, limit: int = 50):
-        query = f"SELECT {self.COMMON_FIELDS} FROM teams WHERE country = ? COLLATE NOCASE ORDER BY vlr_rank ASC LIMIT ?"
+    def get_teams_by_country(self, country: str, limit: int = 20, offset: int = 0):
+        query = f"SELECT {self.COMMON_FIELDS} FROM teams WHERE country = ? COLLATE NOCASE ORDER BY vlr_rank ASC LIMIT ? OFFSET ?"
         with self.get_connection() as conn:
             cursor = conn.cursor()
-            cursor.execute(query, (country, limit))
+            cursor.execute(query, (country, limit, offset))
             rows = cursor.fetchall()
             return [self._format_team(row) for row in rows]
             
@@ -209,3 +209,82 @@ class DatabaseManager:
     def get_team_match_ids(self, team_id: str):
         team = self.get_team_by_id(team_id)
         return team.get("recent_matches", []) if team else None
+
+    
+    PLAYER_FIELDS = "p.id, p.ign, p.real_name, p.country, p.current_team_id, p.team_joined_date, p.data_json"
+
+    def _format_player(self, row):
+        if not row: return None
+        data = dict(row)
+        
+        if data.get("data_json"):
+            json_dump = json.loads(data["data_json"])
+            data["past_teams"] = json_dump.get("past_teams", [])
+            del data["data_json"]
+            
+        return data
+
+    def get_players(self, limit: int = 20, offset: int = 0):
+        query = f"""
+            SELECT {self.PLAYER_FIELDS}, t.name as team_name 
+            FROM players p
+            LEFT JOIN teams t ON p.current_team_id = t.id
+            LIMIT ? OFFSET ?
+        """
+        with self.get_connection() as conn:
+            cursor = conn.cursor()
+            cursor.execute(query, (limit, offset))
+            rows = cursor.fetchall()
+            return [self._format_player(row) for row in rows]
+
+    def get_players_by_country(self, country: str, limit: int = 20, offset: int = 0):
+        query = f"""
+            SELECT {self.PLAYER_FIELDS}, t.name as team_name, t.tag as team_tag
+            FROM players p
+            LEFT JOIN teams t ON p.current_team_id = t.id
+            WHERE p.country = ? COLLATE NOCASE
+            LIMIT ? OFFSET ?
+        """
+        with self.get_connection() as conn:
+            cursor = conn.cursor()
+            cursor.execute(query, (country, limit, offset))
+            rows = cursor.fetchall()
+            return [self._format_player(row) for row in rows]
+
+    def get_player_by_id(self, player_id: str):
+        query = f"""
+            SELECT {self.PLAYER_FIELDS}, t.name as team_name, t.tag as team_tag
+            FROM players p
+            LEFT JOIN teams t ON p.current_team_id = t.id
+            WHERE p.id = ?
+        """
+        with self.get_connection() as conn:
+            cursor = conn.cursor()
+            cursor.execute(query, (player_id,))
+            row = cursor.fetchone()
+            return self._format_player(row)
+
+    def get_player_by_ign(self, ign: str):
+        query = f"""
+            SELECT {self.PLAYER_FIELDS}, t.name as team_name, t.tag as team_tag
+            FROM players p
+            LEFT JOIN teams t ON p.current_team_id = t.id
+            WHERE p.ign = ? COLLATE NOCASE
+        """
+        with self.get_connection() as conn:
+            cursor = conn.cursor()
+            cursor.execute(query, (ign,))
+            row = cursor.fetchone()
+            return self._format_player(row)
+        
+    def get_player_past_teams(self, player_id: str = None, ign: str = None):
+        player = None
+        if player_id:
+            player = self.get_player_by_id(player_id)
+        elif ign:
+            player = self.get_player_by_ign(ign)
+        
+        if not player:
+            return None
+            
+        return player.get("past_teams")
