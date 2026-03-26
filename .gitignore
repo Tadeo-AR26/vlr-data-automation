@@ -8,6 +8,7 @@ __pycache__/
 *.py[cod]
 *$py.class
 .pytest_cache/
+*.pyc
 
 # --- Datos Locales ---
 # Ignoramos los JSON locales para que no haya conflictos con los que genere el bot
