@@ -122,7 +122,57 @@ class DatabaseManager:
             cursor.execute("SELECT data_json FROM tournaments WHERE id = ?", (t_id,))
             row = cursor.fetchone()
             return json.loads(row["data_json"]) if row else None
+
+    def _format_tournament(self, row):
+        """Formatea una fila de la tabla 'tournaments', parseando el JSON."""
+        if not row: return None
+        data = dict(row)
         
+        if data.get("data_json"):
+            json_dump = json.loads(data["data_json"])
+            # Merge data from JSON into the main dict
+            data.update(json_dump)
+            del data["data_json"]
+        return data
+
+    def get_tournaments(self, limit: int = 20, offset: int = 0):
+        query = "SELECT * FROM tournaments ORDER BY id DESC LIMIT ? OFFSET ?"
+        with self.get_connection() as conn:
+            cursor = conn.cursor()
+            cursor.execute(query, (limit, offset))
+            rows = cursor.fetchall()
+            return [self._format_tournament(row) for row in rows]
+
+    def get_tournament_by_id(self, tournament_id: str):
+        query = "SELECT * FROM tournaments WHERE id = ?"
+        with self.get_connection() as conn:
+            cursor = conn.cursor()
+            cursor.execute(query, (tournament_id,))
+            row = cursor.fetchone()
+            return self._format_tournament(row)
+
+    def get_tournament_teams(self, tournament_id: str):
+        tournament_data = self.get_tournament(tournament_id) # Gets raw data_json
+        if not tournament_data:
+            return None
+        
+        team_ids = tournament_data.get("teams", [])
+        if not team_ids:
+            return []
+            
+        return self._get_team_names_and_tags(team_ids)
+
+    def get_tournament_matches(self, tournament_id: str):
+        tournament_data = self.get_tournament(tournament_id) # Gets raw data_json
+        if not tournament_data: return None
+        match_ids = tournament_data.get("matches", [])
+        if not match_ids: return []
+
+        placeholders = ', '.join(['?'] * len(match_ids))
+        query = f"SELECT id, teams_json, score FROM matches WHERE id IN ({placeholders})"
+        
+        return self._execute_match_summary_query(query, match_ids)
+
     def _get_player_names(self, player_ids):
         """Busca los IGNs de una lista de IDs en una sola consulta."""
         if not player_ids:
@@ -136,6 +186,30 @@ class DatabaseManager:
             cursor.execute(query, player_ids)
             rows = cursor.fetchall()
             return [dict(row) for row in rows]
+
+    def _get_team_names_and_tags(self, team_ids):
+        """Busca los nombres y tags de una lista de IDs de equipos en una sola consulta."""
+        if not team_ids:
+            return []
+        
+        placeholders = ', '.join(['?'] * len(team_ids))
+        query = f"SELECT id, name, tag FROM teams WHERE id IN ({placeholders})"
+        
+        with self.get_connection() as conn:
+            cursor = conn.cursor()
+            cursor.execute(query, team_ids)
+            rows = cursor.fetchall()
+            return [dict(row) for row in rows]
+
+    def _execute_match_summary_query(self, query, params):
+        with self.get_connection() as conn:
+            cursor = conn.cursor()
+            cursor.execute(query, params)
+            rows = cursor.fetchall()
+            return [{
+                "id": row["id"], "score": row["score"],
+                "teams": json.loads(row["teams_json"]) if row["teams_json"] else []
+            } for row in rows]
     
     COMMON_FIELDS = "id, name, tag, country, vlr_rank, last_updated, data_json"
 

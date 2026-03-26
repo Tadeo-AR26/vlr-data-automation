@@ -2,76 +2,68 @@ import time
 import random
 from src.scrapers.home_scraper import HomeScraper
 from src.scrapers.match_scraper import MatchScraper
-from src.scrapers.tournament_scraper import TournamentScraper
 from src.scrapers.player_scraper import PlayerScraper
 from src.scrapers.team_scraper import TeamScraper
-from src.utils.file_manager import save_json, load_json
+from src.utils.database_manager import DatabaseManager
 
-def sync_vlr_data():
+def sync_vlr_data_db():
+    db = DatabaseManager()
     home_scraper = HomeScraper()
     match_scraper = MatchScraper()
     player_scraper = PlayerScraper()
     team_scraper = TeamScraper()
 
+    print("Starting synchronization process...")
     activity = home_scraper.fetch_home()
-    recent_ids = activity.get("recent_matches", [])
-    print(f"Detected {len(recent_ids)} recent matches in Home.")
+    
     if not activity:
-        print("Failed to fetch recent activity.")
+        print("Error: Could not fetch home page data. Sync aborted.")
         return
 
-    matches_db = load_json('matches.json')
-    players_db = load_json('players.json')
-    teams_db = load_json('teams.json')
-
     recent_ids = activity.get("recent_matches", [])
+    print(f"Detected {len(recent_ids)} recent matches to verify.")
 
     for match_id in recent_ids:
-        if match_id in matches_db:
-            print(f"Match {match_id} already in database, skipping.")
+        if db.exists("matches", match_id):
+            print(f"Match {match_id} already exists in the database. Skipping.")
             continue
 
+        print(f"Fetching match data for {match_id}...")
         match_data = match_scraper.fetch_match(match_id)
         if not match_data:
-            print(f"Failed to fetch data for match {match_id}.")
             continue
         
-        matches_db[match_id] = match_data
-        save_json(matches_db, 'matches.json')
-        print(f"Match {match_id} data saved.")
+        t_id = match_data.get("tournament_id")
+        db.save_match(match_id, t_id, match_data)
+        print(f"Match {match_id} saved.")
 
         team_ids = [t['id'] for t in match_data.get("teams", []) if t.get('id')]
         for t_id in team_ids:
-            print(f"Synchronizing Team {t_id}...")
-            t_data = team_scraper.fetch_team(t_id)
-            if t_data:
-                teams_db[t_id] = t_data
-                save_json(teams_db, 'teams.json')
-            
-            time.sleep(random.randint(5, 8))
+            if not db.exists("teams", t_id):
+                print(f"Fetching team data for {t_id}...")
+                t_data = team_scraper.fetch_team(t_id)
+                if t_data:
+                    db.save_team(t_id, t_data)
+                time.sleep(random.randint(5, 8))
         
-        players_to_update = set()
-        for map_info in match_data.get("performance_by_map", []):
-            for player in map_info.get("players", []):
-                players_to_update.add(player["player_id"])
+        players_to_update = {p["player_id"] for map_info in match_data.get("performance_by_map", []) 
+                             for p in map_info.get("players", [])}
         
-        print(f"Found {len(players_to_update)} unique players to update.")
-
         for player_id in players_to_update:
-            print(f"Updating player {player_id}...")
-            player_data = player_scraper.fetch_player(player_id)
+            if not db.exists("players", player_id):
+                print(f"Fetching player data for {player_id}...")
+                player_data = player_scraper.fetch_player(player_id)
+                if player_data:
+                    db.save_player(player_id, player_data)
+                time.sleep(random.randint(3, 6))
 
-            if player_data:
-                players_db[player_id] = player_data
-                save_json(players_db, 'players.json')
-                print(f"Player {player_id} data saved.")
-            
-            wait_time = random.randint(5, 9)
-            time.sleep(wait_time)
-
-        time.sleep(random.randint(10, 15))
+        time.sleep(random.randint(6, 10))
     
-    print("Data synchronization complete.")
+    print("Synchronization completed.")
+
+def run_sync():
+    """Punto de entrada para APScheduler o ejecución manual."""
+    sync_vlr_data_db()
 
 if __name__ == "__main__":
-    sync_vlr_data()
+    run_sync()
