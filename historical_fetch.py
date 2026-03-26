@@ -137,6 +137,8 @@ def run_historical_fetch_db(tournament_ids, force_update=False):
             time.sleep(random.randint(5, 10))
 
 if __name__ == "__main__":
-    tournament_ids = ["2760"]
+    tournament_ids = [
+    "353", "466", "449", "926", "1014", "1015", "1188", "1494", 
+    "1657", "1921", "1999", "2097", "2281", "2282", "2283", "2760"]
     # 353 Reykjavik 2021, 466 Berlin, 449 Champions, 926 Reykjavik 2022, 1014 Copenhagen 2023, 1015 Istanbul 2023, 1188 Lock-In
     run_historical_fetch_db(tournament_ids)
