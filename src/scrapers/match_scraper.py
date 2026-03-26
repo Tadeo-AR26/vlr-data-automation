@@ -2,6 +2,14 @@ import cloudscraper
 from bs4 import BeautifulSoup
 import re
 
+def _get_stat(raw_text):
+    """Safely extracts a numerical or percentage stat from a string."""
+    if not raw_text:
+        return "0"
+    # This regex finds numbers, decimals, percentages, and values with +/-
+    match = re.search(r'[+-]?[\d\.]+%?', str(raw_text))
+    return match.group(0) if match else "0"
+
 class MatchScraper:
     def __init__(self):
         self.scraper = cloudscraper.create_scraper()
@@ -38,14 +46,17 @@ class MatchScraper:
         map_nav = []
         for item in soup.select('.vm-stats-gamesnav-item.js-map-switch'):
             g_id = item.get('data-game-id')
-            raw_name = item.get_text(strip=True)
-            clean_name = re.sub(r'^\d+', '', raw_name).strip() # Cleans "1Haven" -> "Haven"
-            
-            # More robust map name extraction
-            map_name_tag = item.select_one('.map-name')
-            if map_name_tag:
-                clean_name = map_name_tag.get_text(strip=True)
+
+            # More robust map name extraction based on new HTML structure.
+            # It correctly handles "All Maps" and individual maps like "1 Corrode".
+            all_strings = list(item.stripped_strings)
+            if all_strings:
+                # The map name is the last text element.
+                # For "All Maps", list is ['All Maps'] -> 'All Maps'
+                # For "1 Corrode", list is ['1', 'Corrode'] -> 'Corrode'
+                clean_name = all_strings[-1]
             else:
+                # Fallback, though unlikely to be hit
                 raw_name = item.get_text(strip=True)
                 clean_name = re.sub(r'^\d+', '', raw_name).strip()
 
@@ -62,7 +73,8 @@ class MatchScraper:
             for table in container.select('.wf-table-inset.mod-overview'):
                 for row in table.select('tbody tr'):
                     cols = row.select('td')
-                    if len(cols) < 13: continue
+                    # The table has 14 data columns (Player to FK-FD)
+                    if len(cols) < 14: continue
                     
                     p_link = cols[0].select_one('a')
                     if not p_link: continue
@@ -80,16 +92,20 @@ class MatchScraper:
                         if idx >= len(cols): continue
                         cell = cols[idx]
                         
-                        # Extraemos All, T y CT 
-                        raw_all = cell.select_one('.mod-both').get_text(strip=True) if cell.select_one('.mod-both') else cell.get_text(strip=True).lstrip('/')
-                        raw_t = cell.select_one('.mod-t').get_text(strip=True) if cell.select_one('.mod-t') else "0"
-                        raw_ct = cell.select_one('.mod-ct').get_text(strip=True) if cell.select_one('.mod-ct') else "0"
+                        mod_both = cell.select_one('.mod-both')
+                        if mod_both:
+                            raw_all = mod_both.get_text(strip=True)
+                        else:
+                            direct_text = cell.find(string=True, recursive=False)
+                            raw_all = direct_text.strip() if direct_text else ""
 
-                        # Final cleaning
+                        raw_t = cell.select_one('.mod-t').get_text(strip=True) if cell.select_one('.mod-t') else ""
+                        raw_ct = cell.select_one('.mod-ct').get_text(strip=True) if cell.select_one('.mod-ct') else ""
+
                         p_stats[label] = {
-                            "all": re.search(r'[+-]?[\d\.]+%?', raw_all).group(0) if re.search(r'[+-]?[\d\.]+%?', raw_all) else "0",
-                            "t": re.search(r'[+-]?[\d\.]+%?', raw_t).group(0) if re.search(r'[+-]?[\d\.]+%?', raw_t) else "0",
-                            "ct": re.search(r'[+-]?[\d\.]+%?', raw_ct).group(0) if re.search(r'[+-]?[\d\.]+%?', raw_ct) else "0"
+                            "all": _get_stat(raw_all),
+                            "t": _get_stat(raw_t),
+                            "ct": _get_stat(raw_ct)
                         }
 
                     players_in_map.append({

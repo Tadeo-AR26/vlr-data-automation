@@ -90,7 +90,6 @@ class DatabaseManager:
             if isinstance(score, list): score = "-".join(map(str, score))
 
             # Extraemos solo los nombres de los mapas para la columna ligera
-            maps_played = [m.get("map") for m in data.get("performance_by_map", []) if m.get("map")]
             maps_played = [m.get("map") for m in data.get("performance_by_map", []) if m.get("map") and m.get("map") != "All Maps"]
             
             conn.execute('''INSERT OR REPLACE INTO matches VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)''',
