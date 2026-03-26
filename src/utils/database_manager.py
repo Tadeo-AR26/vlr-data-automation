@@ -41,7 +41,7 @@ class DatabaseManager:
             conn.commit()
 
             # Tabla de Matches
-            cursor.execute('DROP TABLE IF EXISTS matches') # For development: ensures schema is updated
+            # cursor.execute('DROP TABLE IF EXISTS matches') # For development: ensures schema is updated
             cursor.execute('''
                 CREATE TABLE IF NOT EXISTS matches (
                     id TEXT PRIMARY KEY,
@@ -272,6 +272,20 @@ class DatabaseManager:
             cursor.execute(query, (match_id,))
             row = cursor.fetchone()
             return self._format_match(row, include_performance=True)
+
+    def get_match_summary(self, match_id: str):
+        """Obtiene solo los equipos y el resultado de un partido."""
+        query = "SELECT teams_json, score FROM matches WHERE id = ?"
+        with self.get_connection() as conn:
+            cursor = conn.cursor()
+            cursor.execute(query, (match_id,))
+            row = cursor.fetchone()
+            if not row:
+                return None
+            return {
+                "teams": json.loads(row["teams_json"]) if row["teams_json"] else [],
+                "score": row["score"]
+            }
 
     PLAYER_FIELDS = "p.id, p.ign, p.real_name, p.country, p.current_team_id, p.team_joined_date, p.data_json"
 
