@@ -1,45 +1,134 @@
-# VLR.gg Data Automation API
+# 🎮 VLR.gg Data Automation API
 
-An automated data pipeline and API designed to track the **Valorant competitive ecosystem** by scraping data from vlr.gg. This project focuses on gathering insights into teams, professional players, match histories, and regional rankings.
+An automated data pipeline and RESTful API designed to track the **Valorant competitive ecosystem**. This project scrapes, processes, and serves real-time data from vlr.gg, focusing on teams, professional players, match histories, and tournament brackets like the **Masters Santiago 2026**.
 
 ## 🚀 Overview
 
-This repository serves as a portfolio project that demonstrates the integration of **web scraping**, **data automation**, and **API development**. It is built with a focus on clean architecture and sustainable data collection practices, tailored for the high-frequency updates typical of the Valorant Champions Tour (VCT) and regional Challengers scenes.
+This repository demonstrates a complete **Backend Engineering** workflow: from robust web scraping with anti-bot bypass to a persistent relational database and a high-performance API. It is designed to be self-sustaining, using internal scheduling to keep the data fresh without manual intervention.
 
 ## 🛠️ Tech Stack
 
-* **Language:** Python 3.12+
-* **Scraping:** [BeautifulSoup4](https://www.crummy.com/software/BeautifulSoup/) & [Cloudscraper](https://github.com/VeNoMouS/cloudscraper) (handling SSR content and Cloudflare challenges).
-* **API Framework:** [FastAPI](https://fastapi.tiangolo.com/) for high-performance data delivery.
-* **Automation:** GitHub Actions for scheduled "Flat Data" updates.
-* **Storage:** JSON-based data storage for lightweight, serverless operation.
+* **Language:** Python 3.11+
+* **API Framework:** [FastAPI](https://fastapi.tiangolo.com/) (Asynchronous, high-performance).
+* **Database:** **SQLite** with persistent volumes for reliable data storage.
+* **Scraping:** [BeautifulSoup4](https://www.crummy.com/software/BeautifulSoup/) & [Cloudscraper](https://github.com/VeNoMouS/cloudscraper).
+* **Automation:** **APScheduler** integrated into the FastAPI lifespan for background synchronization.
+* **Deployment:** [Railway](https://railway.app/) with automated CI/CD from GitHub.
 
 ## 📂 Project Structure
 
 ```text
 vlr-data-automation/
-├── .github/workflows/    # Automated scraping schedules
-├── src/                  # Core logic: Scrapers and HTML parsers
-├── data/                 # Auto-generated JSON datasets
-├── api/                  # FastAPI implementation
+├── api/
+│   ├── main.py           # FastAPI entry point & Lifespan logic
+│   └── routers/          # Modular API endpoints (matches, players, etc.)
+├── src/
+│   ├── scrapers/         # Specific logic for each VLR section
+│   └── utils/
+│       └── database_manager.py  # SQLite connection & CRUD logic
+├── data/                 # Persistent SQLite database (Mounted Volume)
+├── sync_activity.py      # Core synchronization script (The Scraper)
+├── Procfile              # Railway deployment instructions
 ├── requirements.txt      # Project dependencies
-└── README.md             # Project documentation
+├── runtime.txt           # Python version specification
+└── README.md             # This documentation
 ```
 
 ## 📋 Features & Roadmap
-```text
-[x] Initial Research: Identified URL patterns for matches, players, and rankings.
 
-[x] Project Scaffolding: Environment setup and repository architecture.
+* **[x] Persistent Storage:** Migrated from flat JSON files to a relational **SQLite** database for better query performance and data integrity.
+* **[x] Internal Automation:** Implemented **APScheduler** to run the `sync_activity` every 12 hours directly from the API.
+* **[x] Modular Routing:** Organized using `APIRouter` for clean and scalable code.
+* **[x] Cloud Deployment:** Fully functional on **Railway** using persistent volumes and environment variables.
+* **[x] Masters Santiago 2026:** Initial support and historical data loading for VCT tournaments.
 
-[ ] Core Scraper: Implementing robust extraction logic for player stats (e.g., 90d/60d/30d timespans).
+## 🔌 API Usage Examples
 
-[ ] Tournament Logic: Parsing complex bracket metadata (Middle Round, Lower Round, etc.).
+Once the API is running, you can access the interactive documentation at `/docs`.
 
-[ ] Automation: Deploying GitHub Actions to refresh datasets every 6-12 hours.
-
-[ ] API Layer: Creating endpoints to serve local JSON data as a RESTful service.
+### Get Recent Matches
+```bash
+curl -X 'GET' '[https://your-app.railway.app/matches/recent](https://your-app.railway.app/matches/recent)'
 ```
 
+### Get Team Details
+```bash
+curl -X 'GET' '[https://tu-app.railway.app/teams/1234](https://tu-app.railway.app/teams/1234)'
+```
+
+### Response Format (Example)
+```json
+{
+  "id": "17",
+  "name": "Gen.G",
+  "tag": "GEN",
+  "country": "South Korea",
+  "vlr_rank": 4,
+  "last_updated": "2026-03-26 14:34:28",
+  "roster": [
+    {
+      "id": "11600",
+      "ign": "Foxy9"
+    },
+    {
+      "id": "25017",
+      "ign": "Ash"
+    },
+    {
+      "id": "34974",
+      "ign": "Karon"
+    },
+    {
+      "id": "4560",
+      "ign": "peri"
+    },
+    {
+      "id": "4562",
+      "ign": "solo"
+    },
+    {
+      "id": "773",
+      "ign": "Lakia"
+    },
+    {
+      "id": "9196",
+      "ign": "t3xture"
+    }
+  ],
+  "upcoming_matches": [
+    "644652"
+  ],
+  "recent_matches": [
+    "595654",
+    "595652",
+    "595644",
+    "595633",
+    "590638"
+  ]
+}
+```
+
+## ⚙️ Installation & Deployment
+
+### Local Setup
+1. Clone the repository and install dependencies:
+   ```bash
+   pip install -r requirements.txt
+   ```
+2. Create a `.env` file in the root directory:
+   ```text
+   DATABASE_PATH=data/vlr_database.sqlite
+   ```
+3. Run the API locally:
+   ```bash
+   uvicorn api.main:app --reload
+   ```
+
+### Railway Deployment
+1. Connect this repository to **Railway**.
+2. Add a **Volume** and mount it at `/data`.
+3. Set the variable `DATABASE_PATH=/data/vlr_database.sqlite`.
+4. Railway detectará el `Procfile` y arrancará el servicio automáticamente.
+
 ## ⚖️ Legal Disclaimer
-This project is for educational and personal portfolio purposes only. All data is sourced from vlr.gg. The scraping logic respects the site's structure and aims to minimize server load by using cached data and scheduled updates rather than real-time requests.
+This project is for educational and personal portfolio purposes only. All data is sourced from vlr.gg. The scraping logic respects the site's structure and aims to minimize server load by using cached data and background updates.
