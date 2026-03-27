@@ -42,3 +42,11 @@ async def root():
         "docs": "/docs",
         "status": "online"
     }
+
+from fastapi import BackgroundTasks
+import historical_fetch # Importa tu función de scrapeo
+
+@app.get("/admin/seed-db")
+async def seed_database(background_tasks: BackgroundTasks):
+    background_tasks.add_task(historical_fetch.run_all)
+    return {"status": "Scraping histórico iniciado en la nube"}
