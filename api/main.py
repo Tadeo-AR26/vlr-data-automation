@@ -48,5 +48,8 @@ import historical_fetch # Importa tu función de scrapeo
 
 @app.get("/admin/seed-db")
 async def seed_database(background_tasks: BackgroundTasks):
-    background_tasks.add_task(historical_fetch.run_all)
+    tournament_ids = [
+    "353", "466", "449", "926", "1014", "1015", "1188", "1494", 
+    "1657", "1921", "1999", "2097", "2281", "2282", "2283", "2760"]
+    background_tasks.add_task(historical_fetch.run_historical_fetch_db, tournament_ids)
     return {"status": "Scraping histórico iniciado en la nube"}
